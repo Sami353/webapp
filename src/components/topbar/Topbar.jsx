@@ -20,7 +20,7 @@ export default function Topbar() {
           </div><div className="topbarIconContainer">
             <Settings />
           </div>
-          <img src="http://cdn.onlinewebfonts.com/svg/img_87237.png" alt="" className="topAvatar" />
+          <img src="https://th.bing.com/th/id/OIP.nTK-yAWL01laY6CKjMEq3gHaHa?pid=ImgDet&rs=1" alt="" className="topAvatar" />
         </div>
       </div>
     </div>
