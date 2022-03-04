@@ -7,7 +7,7 @@ export default function Topbar() {
     <div className='topbar'>
       <div className="topbarWrapper">
         <div className="topLeft">
-          <span className="logo">WebApp</span>
+          <span className="logo">Healthfix - Web App Dashboard</span>
         </div>
         <div className="topRight">
           <div className="topbarIconContainer">
