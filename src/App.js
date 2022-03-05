@@ -5,10 +5,9 @@ import Home from "./pages/home/Home";
 import {
   BrowserRouter as Router,
   Route,
-  // Link,
   Switch
 } from "react-router-dom";
-import UserList from "./pages/userList/UserList";
+// import UserList from "./pages/userList/UserList";
 
 function App() {
   return (
@@ -20,9 +19,9 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/users">
+          {/* <Route path="/users">
             <UserList />
-          </Route>
+          </Route> */}
         </Switch>
       </div>
     </Router>
