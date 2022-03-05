@@ -27,8 +27,11 @@ function App() {
     // </Router>
     <div>
       <Topbar />
-      <Sidebar />
-      <Home />
+      <div className="container">
+        <Sidebar />
+        <Home />
+      </div>
+
     </div>
   );
 }
