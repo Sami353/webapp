@@ -29,7 +29,7 @@ export default function WidgetLg() {
                 <tr className="widgetLgTr">
                     <td className="widgetLgUser">
                         <img src="https://th.bing.com/th/id/OIP.2tbifCzjTo8VM3M99jbnjQAAAA?pid=ImgDet&rs=1" alt="" className="widgetLgImg" />
-                        <span className="widgetLgName">Susan Carol</span>
+                        <span className="widgetLgName">Lia Cuevas</span>
                     </td>
                     <td className="widgetLgDate">4 Mar 2022</td>
                     <td className="widgetLgAmount">$122.00</td>
@@ -40,7 +40,7 @@ export default function WidgetLg() {
                 <tr className="widgetLgTr">
                     <td className="widgetLgUser">
                         <img src="https://sethidental.com/wp-content/uploads/2021/04/764-Copy.jpg" alt="" className="widgetLgImg" />
-                        <span className="widgetLgName">Susan Carol</span>
+                        <span className="widgetLgName">Aisha Simon</span>
                     </td>
                     <td className="widgetLgDate">4 Mar 2022</td>
                     <td className="widgetLgAmount">$122.00</td>
@@ -51,7 +51,7 @@ export default function WidgetLg() {
                 <tr className="widgetLgTr">
                     <td className="widgetLgUser">
                         <img src="https://ptandler.github.io/vuepress-theme-single-page-sections/dummy-person.svg" alt="" className="widgetLgImg" />
-                        <span className="widgetLgName">Susan Carol</span>
+                        <span className="widgetLgName">Derrick Hood</span>
                     </td>
                     <td className="widgetLgDate">4 Mar 2022</td>
                     <td className="widgetLgAmount">$122.00</td>
