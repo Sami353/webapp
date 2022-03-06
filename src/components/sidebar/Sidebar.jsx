@@ -5,42 +5,18 @@ import {
     TrendingUp,
     PermIdentity,
     Storefront,
-    // AttachMoney,
-    // BarChart,
-    // MailOutline,
-    // DynamicFeed,
-    // ChatBubbleOutline,
-    // WorkOutline,
-    // Report,
     BrandingWatermark,
-    // DynamicFeedOutlined,
     Category,
-    FitnessCenter,
     CardMembership,
     Person,
     Report
 } from "@material-ui/icons"
 import { Link } from "react-router-dom"
-import Dropdown from "react-dropdown";
+import DropdownGym from "./DropdownGym";
+import DropdownFitness from "./DropdownFitness";
+import DropdownDiet from "./DropdownDiet";
 
 export default function Sidebar() {
-    const options = [
-        'All Gyms', 'Gym Subscriptions'
-    ];
-
-    const defaultOption = options[0];
-
-    const classes = [
-        'All Classes', 'Classes Subscriptions'
-    ];
-
-    const defaultClasses = classes[0];
-
-    const diet = [
-        'Consultation', 'Subscriptions'
-    ];
-
-    const defaultDiet = diet[0];
 
     return (
         <div className="sidebar">
@@ -57,7 +33,8 @@ export default function Sidebar() {
                         <li className="sidebarListItem">
                             <Timeline className="sidebarIcon" />
                             Analytics
-                        </li><li className="sidebarListItem">
+                        </li>
+                        <li className="sidebarListItem">
                             <TrendingUp className="sidebarIcon" />
                             Sales
                         </li>
@@ -101,20 +78,14 @@ export default function Sidebar() {
                     <div className="sidebarTitle">Fitness</div>
                     <ul className="sidebarList">
                         <li className="sidebarListItem">
-                            <FitnessCenter className="sidebarIcon" />
-                            Gyms
+                            <DropdownGym />
                         </li>
-                        <Dropdown options={options} onChange={{options}} value={defaultOption} placeholder="Select an option" />
                         <li className="sidebarListItem">
-                            <CardMembership className="sidebarIcon" />
-                            Fitness Classes
+                            <DropdownFitness />
                         </li>
-                        <Dropdown options={classes} onChange={{classes}} value={defaultClasses} placeholder="Select an option" />
                         <li className="sidebarListItem">
-                            <Report className="sidebarIcon" />
-                            Diet Consultation
+                            <DropdownDiet />
                         </li>
-                        <Dropdown options={diet} onChange={{diet}} value={defaultDiet} placeholder="Select an option" />
                     </ul>
                 </div>
             </div>
