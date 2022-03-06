@@ -28,9 +28,12 @@ export default function UserList() {
         { field: 'status', headerName: 'Status', width: 115 },
         { field: 'transaction', headerName: 'Transactions', width: 155 },
         {
-            field: "action", headerName: "Action", width: 150, renderCell: (params) => {
+            field: "action", headerName: "Action", width: 200, renderCell: (params) => {
                 return (
                     <>
+                    <Link to={"/userView" + params.row.id}>
+                            <button className="userListEdit">View</button>
+                        </Link>
                         <Link to={"/user/" + params.row.id}>
                             <button className="userListEdit">Edit</button>
                         </Link>

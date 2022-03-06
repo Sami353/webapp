@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { CalendarToday, LocationSearching, MailOutline, PermIdentity, PhoneAndroid, Publish } from "@material-ui/icons"
+import { Publish } from "@material-ui/icons"
 import "./user.css"
 
 export default function user() {
@@ -12,7 +12,7 @@ export default function user() {
                 </Link>
             </div>
             <div className="userContainer">
-                <div className="userShow">
+                {/* <div className="userShow">
                     <div className="userShowTop">
                         <img src="https://th.bing.com/th/id/OIF.Yroca081XInwFEO0xjw6Cw?pid=ImgDet&rs=1" alt="" className="userShowImg" />
                         <div className="userShowTopTitle">
@@ -44,7 +44,7 @@ export default function user() {
                             <span className="userShowInfoTitle">Putalisadak, Ktm</span>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="userUpdate">
                     <span className="userUpdateTitle">Edit</span>
                     <form className="userUpdateForm">

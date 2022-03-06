@@ -13,6 +13,8 @@ import NewUser from "./pages/newUser/NewUser";
 import ProductList from "./pages/productList/ProductList";
 import Product from "./pages/product/Product";
 import NewProduct from "./pages/newProduct/NewProduct";
+import ProductView from "./pages/productView/ProductView";
+import UserView from "./pages/userView/UserView";
 
 function App() {
   return (
@@ -30,6 +32,9 @@ function App() {
           <Route path="/user/:userId">
             <User />
           </Route>
+          <Route path="/userView1">
+            <UserView />
+          </Route>
           <Route path="/newUser">
             <NewUser />
           </Route>
@@ -38,6 +43,9 @@ function App() {
           </Route>
           <Route path="/product/:productId">
             <Product />
+          </Route>
+          <Route path="/productView">
+            <ProductView />
           </Route>
           <Route path="/newproduct">
             <NewProduct />

@@ -27,9 +27,12 @@ export default function ProductList() {
         { field: 'status', headerName: 'Status', width: 115 },
         { field: 'price', headerName: 'Prices', width: 155 },
         {
-            field: "action", headerName: "Action", width: 150, renderCell: (params) => {
+            field: "action", headerName: "Action", width: 200, renderCell: (params) => {
                 return (
                     <>
+                        <Link to={"/productView/" + params.row.id}>
+                            <button className="productListEdit">View</button>
+                        </Link>
                         <Link to={"/product/" + params.row.id}>
                             <button className="productListEdit">Edit</button>
                         </Link>

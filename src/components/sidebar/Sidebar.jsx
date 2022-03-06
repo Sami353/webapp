@@ -5,24 +5,50 @@ import {
     TrendingUp,
     PermIdentity,
     Storefront,
-    AttachMoney,
-    BarChart,
-    MailOutline,
-    DynamicFeed,
-    ChatBubbleOutline,
-    WorkOutline,
+    // AttachMoney,
+    // BarChart,
+    // MailOutline,
+    // DynamicFeed,
+    // ChatBubbleOutline,
+    // WorkOutline,
+    // Report,
+    BrandingWatermark,
+    // DynamicFeedOutlined,
+    Category,
+    FitnessCenter,
+    CardMembership,
+    Person,
     Report
 } from "@material-ui/icons"
 import { Link } from "react-router-dom"
+import Dropdown from "react-dropdown";
 
 export default function Sidebar() {
+    const options = [
+        'All Gyms', 'Gym Subscriptions'
+    ];
+
+    const defaultOption = options[0];
+
+    const classes = [
+        'All Classes', 'Classes Subscriptions'
+    ];
+
+    const defaultClasses = classes[0];
+
+    const diet = [
+        'Consultation', 'Subscriptions'
+    ];
+
+    const defaultDiet = diet[0];
+
     return (
         <div className="sidebar">
             <div className="sidebarWrapper">
                 <div className="sidebarMenu">
                     <div className="sidebarTitle">Dashboard</div>
                     <ul className="sidebarList">
-                        <Link to="/" className="link">
+                        <Link to="" className="link">
                             <li className="sidebarListItem active">
                                 <LineStyle className="sidebarIcon" />
                                 Home
@@ -38,14 +64,23 @@ export default function Sidebar() {
                     </ul>
                 </div>
                 <div className="sidebarMenu">
-                    <div className="sidebarTitle">Quick Menu</div>
+                    <div className="sidebarTitle">Users</div>
                     <ul className="sidebarList">
                         <Link to="/users" className="link">
                             <li className="sidebarListItem">
                                 <PermIdentity className="sidebarIcon" />
-                                Users
+                                Customers
                             </li>
                         </Link>
+                        <li className="sidebarListItem">
+                            <Person className="sidebarIcon" />
+                            Vendors
+                        </li>
+                    </ul>
+                </div>
+                <div className="sidebarMenu">
+                    <div className="sidebarTitle">Products</div>
+                    <ul className="sidebarList">
                         <Link to="/products" className="link">
                             <li className="sidebarListItem">
                                 <Storefront className="sidebarIcon" />
@@ -53,45 +88,33 @@ export default function Sidebar() {
                             </li>
                         </Link>
                         <li className="sidebarListItem">
-                            <AttachMoney className="sidebarIcon" />
-                            Transactions
+                            <Category className="sidebarIcon" />
+                            Categories
                         </li>
                         <li className="sidebarListItem">
-                            <BarChart className="sidebarIcon" />
-                            Reports
-                        </li>
-                    </ul>
-                </div>
-                <div className="sidebarMenu">
-                    <div className="sidebarTitle">Notifications</div>
-                    <ul className="sidebarList">
-                        <li className="sidebarListItem">
-                            <MailOutline className="sidebarIcon" />
-                            Mail
-                        </li>
-                        <li className="sidebarListItem">
-                            <DynamicFeed className="sidebarIcon" />
-                            Feedback
-                        </li><li className="sidebarListItem">
-                            <ChatBubbleOutline className="sidebarIcon" />
-                            Messages
+                            <BrandingWatermark className="sidebarIcon" />
+                            Brands
                         </li>
                     </ul>
                 </div>
                 <div className="sidebarMenu">
-                    <div className="sidebarTitle">Staff</div>
+                    <div className="sidebarTitle">Fitness</div>
                     <ul className="sidebarList">
                         <li className="sidebarListItem">
-                            <WorkOutline className="sidebarIcon" />
-                            Manage
+                            <FitnessCenter className="sidebarIcon" />
+                            Gyms
                         </li>
+                        <Dropdown options={options} onChange={{options}} value={defaultOption} placeholder="Select an option" />
                         <li className="sidebarListItem">
-                            <Timeline className="sidebarIcon" />
-                            Analytics
-                        </li><li className="sidebarListItem">
+                            <CardMembership className="sidebarIcon" />
+                            Fitness Classes
+                        </li>
+                        <Dropdown options={classes} onChange={{classes}} value={defaultClasses} placeholder="Select an option" />
+                        <li className="sidebarListItem">
                             <Report className="sidebarIcon" />
-                            Report
+                            Diet Consultation
                         </li>
+                        <Dropdown options={diet} onChange={{diet}} value={defaultDiet} placeholder="Select an option" />
                     </ul>
                 </div>
             </div>

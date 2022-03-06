@@ -1,0 +1,29 @@
+.productShow{
+    flex: 4;
+}
+
+.productView{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+}
+
+.userContainer{
+    display: flex;
+    margin-top: 20px;
+}
+
+.userShowBottom{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 5;
+}
+
+.userShowInfo{
+    display: flex;
+    justify-content: space-between;
+}
