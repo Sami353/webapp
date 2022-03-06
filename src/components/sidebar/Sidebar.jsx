@@ -7,9 +7,7 @@ import {
     Storefront,
     BrandingWatermark,
     Category,
-    CardMembership,
     Person,
-    Report
 } from "@material-ui/icons"
 import { Link } from "react-router-dom"
 import DropdownGym from "./DropdownGym";
