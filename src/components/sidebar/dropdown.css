@@ -1,9 +1,16 @@
 .dropdown{
-    flex: 1;
+    margin-left: -5px;
+    margin-right: -5px;
 }
 
 .dropdownMenu{
     color: #555;
+}
+
+.dropdownListItem{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 .dropdownIcon{
@@ -11,13 +18,7 @@
     font-size: 20px;
 }
 
-.dropdownListItem{
-    padding: 5px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-}
-
 .dropdownList{
     list-style: none;
+    margin: 2px 0px;
 }

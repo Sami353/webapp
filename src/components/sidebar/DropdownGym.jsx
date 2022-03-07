@@ -1,6 +1,6 @@
 import { FitnessCenter } from "@material-ui/icons";
 import { useState } from "react";
-import "./dropdownGym.css"
+import "./dropdown.css"
 
 function DropdownGym() {
     const [state, setState] = useState(false);
@@ -13,7 +13,7 @@ function DropdownGym() {
 
     return (
         <div className="dropdown">
-            <div className="dropdownMenu" onClick={showDropdown} onMouseLeave={hideDropdown}>
+            <div className="dropdownMenu" onClick={showDropdown} onClickCapture={hideDropdown}>
                 <div className="dropdownListItem">
                     <FitnessCenter className="dropdownIcon" />
                     Gyms

@@ -1,6 +1,6 @@
 import { Report } from "@material-ui/icons";
 import { useState } from "react";
-import "./dropdownDiet.css"
+import "./dropdown.css"
 
 function DropdownDiet() {
     const [state, setState] = useState(false);

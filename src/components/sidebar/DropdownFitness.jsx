@@ -1,6 +1,6 @@
 import { CardMembership } from "@material-ui/icons";
 import { useState } from "react";
-import "./dropdownFitness.css"
+import "./dropdown.css"
 
 function DropdownFitness() {
     const [state, setState] = useState(false);

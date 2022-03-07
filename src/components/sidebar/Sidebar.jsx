@@ -75,15 +75,9 @@ export default function Sidebar() {
                 <div className="sidebarMenu">
                     <div className="sidebarTitle">Fitness</div>
                     <ul className="sidebarList">
-                        <li className="sidebarListItem">
-                            <DropdownGym />
-                        </li>
-                        <li className="sidebarListItem">
-                            <DropdownFitness />
-                        </li>
-                        <li className="sidebarListItem">
-                            <DropdownDiet />
-                        </li>
+                        <li className="sidebarListItem"> <DropdownGym /> </li>
+                        <li className="sidebarListItem"> <DropdownFitness /> </li>
+                        <li className="sidebarListItem"> <DropdownDiet /> </li>
                     </ul>
                 </div>
             </div>
