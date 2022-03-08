@@ -1,27 +1,36 @@
 import { FitnessCenter } from "@material-ui/icons";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./dropdown.css"
 
 function DropdownGym() {
-    const [state, setState] = useState(false);
+    const [showState, setShowState] = useState(false);
+    const showHideDropdown = () => {
+        showState ? setShowState(false) : setShowState(true);
+    }
     const showDropdown = () => {
-        setState(true);
+        setShowState(true);
     }
     const hideDropdown = () => {
-        setState(false);
+        setShowState(false);
+
     }
 
     return (
         <div className="dropdown">
-            <div className="dropdownMenu" onClick={showDropdown} onClickCapture={hideDropdown}>
-                <div className="dropdownListItem">
+            <div className="dropdownMenu" onClick={showHideDropdown}>
+                <div className="sidebarListItemDropdown">
                     <FitnessCenter className="dropdownIcon" />
                     Gyms
                 </div>
-                {state ? (
+                {showState ? (
                     <ul className="dropdownList" onMouseEnter={showDropdown}>
-                        <li className="dropdownListItem">All Gyms</li>
-                        <li className="dropdownListItem">Gym Subscriptions</li>
+                        <Link to="/gyms" className="link">
+                            <li className="dropdownListItemDetails">All Gyms</li>
+                        </Link>
+                        <Link to="/subscriptions" className="link">
+                        <li className="dropdownListItemDetails">Gym Subscriptions</li>
+                        </Link>
                     </ul>) :
                     null}
             </div>

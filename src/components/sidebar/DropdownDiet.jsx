@@ -1,27 +1,34 @@
 import { Report } from "@material-ui/icons";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./dropdown.css"
 
 function DropdownDiet() {
-    const [state, setState] = useState(false);
+    const [showState, setShowState] = useState(false);
+    const showHideDropdown = () => {
+        showState ? setShowState(false) : setShowState(true);
+    }
     const showDropdown = () => {
-        setState(true);
+        setShowState(true);
     }
     const hideDropdown = () => {
-        setState(false);
+        setShowState(false);
+
     }
 
     return (
         <div className="dropdown">
-            <div className="dropdownMenu" onClick={showDropdown} onMouseLeave={hideDropdown}>
-                <div className="dropdownListItem">
+            <div className="dropdownMenu" onClick={showHideDropdown}>
+                <div className="sidebarListItemDropdown">
                     <Report className="dropdownIcon" />
                     Diet Consultation
                 </div>
-                {state ? (
+                {showState ? (
                     <ul className="dropdownList" onMouseEnter={showDropdown}>
-                        <li className="dropdownListItem">Consultations</li>
-                        <li className="dropdownListItem">Subscriptions</li>
+                        <Link to="/gyms" className="link">
+                            <li className="dropdownListItemDetails">Consultation</li>
+                        </Link>
+                        <li className="dropdownListItemDetails">Subscriptions</li>
                     </ul>) :
                     null}
             </div>

@@ -1,12 +1,12 @@
-import "./productList.css"
-import { DataGrid } from '@material-ui/data-grid';
+import { DataGrid } from "@material-ui/data-grid";
 import { DeleteOutline } from "@material-ui/icons";
-import { productRows } from "../../dummyData";
-import { Link } from "react-router-dom";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import { gymRows } from "../../dummyData";
+import "./gym.css"
 
-export default function ProductList() {
-    const [data, setData] = useState(productRows);
+export default function GymList() {
+    const [data, setData] = useState(gymRows);
     const handleDelete = (id) => {
         setData(data.filter(item => item.id !== id));
     };
@@ -23,18 +23,17 @@ export default function ProductList() {
                 )
             }
         },
-        { field: 'brand', headerName: 'Brand', width: 150 },
-        { field: 'productType', headerName: 'Product Type', width: 200 },
-        { field: 'price', headerName: 'Prices', width: 155 },
-        { field: 'sellerName', headerName: 'Seller Name', width: 155 },
+        { field: 'openingTime', headerName: 'Opening Time', width: 200 },
+        { field: 'location', headerName: 'Location', width: 200 },
+        { field: 'packages', headerName: 'Packages', width: 155 },
         {
             field: "action", headerName: "Action", width: 200, renderCell: (params) => {
                 return (
                     <>
-                        <Link to={"/productView/" + params.row.id}>
+                        <Link to={"/gymView/" + params.row.id}>
                             <button className="productListEdit">View</button>
                         </Link>
-                        <Link to={"/product/" + params.row.id}>
+                        <Link to={"/gymEdit/" + params.row.id}>
                             <button className="productListEdit">Edit</button>
                         </Link>
                         <DeleteOutline className="productListDelete"
@@ -44,13 +43,12 @@ export default function ProductList() {
             }
         }
     ];
-
     return (
-        <div className="productList">
-            <div className="productTitleContainer">
-                <h1 className="productTitle">Product</h1>
+        <div className="gymList">
+            <div className="gymTitleContainer">
+                <h1 className="allGymTitle">All Gyms</h1>
             </div>
-            <div className="productBottom">
+            <div className="gymBottom">
                 <DataGrid
                     rows={data}
                     disableSelectionOnClick

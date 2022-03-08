@@ -14,15 +14,24 @@ export default function NewProduct() {
                     <input type="text" placeholder="Apple Airpods" />
                 </div>
                 <div className="addProductItem">
-                    <label>Stock</label>
-                    <input type="text" placeholder="123" />
+                    <label>Brand</label>
+                    <input type="text" placeholder="Apple" />
                 </div>
                 <div className="addProductItem">
-                    <label>Active</label>
-                    <select name="active" id="active">
-                        <option value="yes">Yes</option>
-                        <option value="no">No</option>
-                    </select>
+                    <label>Product Type</label>
+                    <input type="text" placeholder="Airpods" />
+                </div>
+                <div className="addProductItem">
+                    <label>Original Price</label>
+                    <input type="text" placeholder="Rs. 555" />
+                </div>
+                <div className="addProductItem">
+                    <label>Discounted Price</label>
+                    <input type="text" placeholder="Rs. 455" />
+                </div>
+                <div className="addProductItem">
+                    <label>Seller Name</label>
+                    <input type="text" placeholder="Anna Becker" />
                 </div>
                 <button className="addProductButton">Create</button>
             </form>

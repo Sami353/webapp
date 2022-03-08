@@ -1,27 +1,34 @@
 import { CardMembership } from "@material-ui/icons";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./dropdown.css"
 
 function DropdownFitness() {
-    const [state, setState] = useState(false);
+    const [showState, setShowState] = useState(false);
+    const showHideDropdown = () => {
+        showState ? setShowState(false) : setShowState(true);
+    }
     const showDropdown = () => {
-        setState(true);
+        setShowState(true);
     }
     const hideDropdown = () => {
-        setState(false);
+        setShowState(false);
+
     }
 
     return (
         <div className="dropdown">
-            <div className="dropdownMenu" onClick={showDropdown} onMouseLeave={hideDropdown}>
-                <div className="dropdownListItem">
+            <div className="dropdownMenu" onClick={showHideDropdown}>
+                <div className="sidebarListItemDropdown">
                     <CardMembership className="dropdownIcon" />
-                    Fitness Classes
+                    Fitness Class
                 </div>
-                {state ? (
+                {showState ? (
                     <ul className="dropdownList" onMouseEnter={showDropdown}>
-                        <li className="dropdownListItem">All Classes</li>
-                        <li className="dropdownListItem">Classes Subscriptions</li>
+                        <Link to="/gyms" className="link">
+                            <li className="dropdownListItemDetails">All Classes</li>
+                        </Link>
+                        <li className="dropdownListItemDetails">Classes Subscriptions</li>
                     </ul>) :
                     null}
             </div>

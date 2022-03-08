@@ -1,0 +1,398 @@
+.gym{
+    flex: 4;
+}
+
+.gymContainer{
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75); 
+}
+
+.gymTitle{
+    margin-bottom: 10px;
+}
+
+.gymDescription{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.gymContainerTwo{
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+}
+
+.gymViewImage{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.gymDescriptionContainer{
+    margin-top: 5px;
+}
+
+.gymDescriptionText{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.gymList{
+    flex: 4;
+}
+
+.gymTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.allGymTitle{
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.gymBottom{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    height: 60%;
+}
+
+/* gymEdit */
+
+.gymEdit{
+    flex: 4;
+}
+
+.gymEditTitleContainer{
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gymEditAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.gymEditBottom{
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+}
+
+.gymEditForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gymEditFormLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.gymEditFormLeftPackage{
+    display: flex;
+}
+
+.gymEditFormLeft>label{
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.gymEditFormLeft>input{
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.gymEditFormLeftPackage>label{
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.gymEditFormLeftPackage>input{
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.gymEditFormLeft>select{
+    margin-bottom: 10px;
+}
+
+.gymEditUploadImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.gymEditFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.gymEditUpload{
+    display: flex;
+    align-items: center;
+}
+
+.gymEditButton{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* NewGym */
+
+.newGym{
+    flex: 4;
+}
+
+.addGymForm{
+    margin-top: 10px;
+}
+
+.addGymItem{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.addGymItem>label{
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.addGymItem>input{
+    padding: 10px;
+}
+
+.addGymItemPackage>label{
+    margin-bottom: 10px;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addGymItemPackage>input{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.addGymItem>select{
+    padding: 10px;
+}
+
+.addGymButton{
+    margin-top: 10px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* subscription edit */
+
+.subscriptionEdit{
+    flex: 4;
+}
+
+.subscriptionEditTitleContainer{
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscriptionEditAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.subscriptionEditBottom{
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+}
+
+.subscriptionEditForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscriptionEditFormLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.subscriptionEditFormLeftPackage{
+    display: flex;
+}
+
+.subscriptionEditFormLeft>label{
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.subscriptionEditFormLeft>input{
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.subscriptionEditFormLeftPackage>label{
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.subscriptionEditFormLeftPackage>input{
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.subscriptionEditFormLeft>select{
+    margin-bottom: 10px;
+}
+
+.subscriptionEditUploadImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.subscriptionEditFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.subscriptionEditUpload{
+    display: flex;
+    align-items: center;
+}
+
+.subscriptionEditButton{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* subscription view */
+
+.subscriptionView{
+    flex: 4;
+}
+
+.subscriptionViewContainer{
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75); 
+}
+
+.subscriptionViewTitle{
+    margin-bottom: 10px;
+}
+
+.subscriptionViewDescription{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.subscriptionViewContainerTwo{
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+}
+
+.subscriptionViewViewImage{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.subscriptionViewDescriptionContainer{
+    margin-top: 5px;
+}
+
+.subscriptionViewDescriptionText{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: justify;
+}

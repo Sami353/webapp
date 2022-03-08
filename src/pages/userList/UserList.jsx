@@ -31,10 +31,10 @@ export default function UserList() {
             field: "action", headerName: "Action", width: 200, renderCell: (params) => {
                 return (
                     <>
-                    <Link to={"/userView" + params.row.id}>
+                    <Link to={"/userView/" + params.row.id}>
                             <button className="userListEdit">View</button>
                         </Link>
-                        <Link to={"/user/" + params.row.id}>
+                        <Link to={"/usersEdit/" + params.row.id}>
                             <button className="userListEdit">Edit</button>
                         </Link>
                         <DeleteOutline className="userListDelete"
@@ -46,14 +46,19 @@ export default function UserList() {
     ];
 
     return (
-        <div className='userList'>
-            <DataGrid
-                rows={data}
-                disableSelectionOnClick
-                columns={columns}
-                pageSize={8}
-                checkboxSelection
-            />
+        <div className="userList">
+            <div className="userTitleContainer">
+                <h1 className="userTitle">Users</h1>
+            </div>
+            <div className="userBottom">
+                <DataGrid
+                    rows={data}
+                    disableSelectionOnClick
+                    columns={columns}
+                    pageSize={8}
+                    checkboxSelection
+                />
+            </div>
         </div>
     )
 }

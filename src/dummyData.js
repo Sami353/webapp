@@ -152,80 +152,277 @@ export const productRows = [
         id: 1,
         name: 'Apple Airpods',
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
-        stock: "123",
-        status: "Active",
-        price: "$190.00"
+        brand: "Apple",
+        productType: "Airpods",
+        // price: "Rs. 455.00",
+        price: "Rs. 555.00",
+        sellerName: "Anna Becker"
     },
     {
         id: 2,
         name: 'Apple Airpods',
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
-        stock: "123",
-        status: "Active",
-        price: "$120.00"
+        brand: "Apple",
+        productType: "Airpods",
+        price: "Rs. 555.00",
+        sellerName: "Anna Becker"
     },
     {
         id: 3,
         name: 'Apple Airpods',
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
-        stock: "123",
-        status: "Active",
-        price: "$120.00"
+        brand: "Apple",
+        productType: "Airpods",
+        price: "Rs. 555.00",
+        sellerName: "Anna Becker"
     },
     {
         id: 4,
         name: 'Apple Airpods',
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
-        stock: "123",
-        status: "Active",
-        price: "$120.00"
+        brand: "Apple",
+        productType: "Airpods",
+        price: "Rs. 555.00",
+        sellerName: "Anna Becker"
     },
     {
         id: 5,
         name: 'Apple Airpods',
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
-        stock: "123",
-        status: "Active",
-        price: "$120.00"
+        brand: "Apple",
+        productType: "Airpods",
+        price: "Rs. 555.00",
+        sellerName: "Anna Becker"
     },
     {
         id: 6,
         name: 'Apple Airpods',
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
-        stock: "123",
-        status: "Active",
-        price: "$120.00"
+        brand: "Apple",
+        productType: "Airpods",
+        price: "Rs. 555.00",
+        sellerName: "Anna Becker"
     },
     {
         id: 7,
         name: 'Apple Airpods',
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
-        stock: "123",
-        status: "Active",
-        price: "$120.00"
+        brand: "Apple",
+        productType: "Airpods",
+        price: "Rs. 555.00",
+        sellerName: "Anna Becker"
     },
     {
         id: 8,
         name: 'Apple Airpods',
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
-        stock: "123",
-        status: "Active",
-        price: "$120.00"
+        brand: "Apple",
+        productType: "Airpods",
+        price: "Rs. 555.00",
+        sellerName: "Anna Becker"
     },
     {
         id: 9,
         name: 'Apple Airpods',
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
-        stock: "123",
-        status: "Active",
-        price: "$120.00"
+        brand: "Apple",
+        productType: "Airpods",
+        price: "Rs. 555.00",
+        sellerName: "Anna Becker"
     },
     {
         id: 10,
         name: 'Apple Airpods',
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
-        stock: "123",
-        status: "Active",
-        price: "$120.00"
+        brand: "Apple",
+        productType: "Airpods",
+        price: "Rs. 555.00",
+        sellerName: "Anna Becker"
+    }
+];
+
+export const gymRows = [
+    {
+        id: 1,
+        name: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        openingTime: "5:00am - 7:00pm",
+        location: "Putalisadak, Ktm",
+        packages: "HealthFix"
+    },
+    {
+        id: 2,
+        name: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        openingTime: "5:00am - 7:00pm",
+        location: "Putalisadak, Ktm",
+        packages: "HealthFix"
+    },
+    {
+        id: 3,
+        name: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        openingTime: "5:00am - 7:00pm",
+        location: "Putalisadak, Ktm",
+        packages: "HealthFix"
+    },
+    {
+        id: 4,
+        name: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        openingTime: "5:00am - 7:00pm",
+        location: "Putalisadak, Ktm",
+        packages: "HealthFix"
+    },
+    {
+        id: 5,
+        name: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        openingTime: "5:00am - 7:00pm",
+        location: "Putalisadak, Ktm",
+        packages: "HealthFix"
+    },
+    {
+        id: 6,
+        name: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        openingTime: "5:00am - 7:00pm",
+        location: "Putalisadak, Ktm",
+        packages: "HealthFix"
+    },
+    {
+        id: 7,
+        name: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        openingTime: "5:00am - 7:00pm",
+        location: "Putalisadak, Ktm",
+        packages: "HealthFix"
+    },
+    {
+        id: 8,
+        name: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        openingTime: "5:00am - 7:00pm",
+        location: "Putalisadak, Ktm",
+        packages: "HealthFix"
+    },
+    {
+        id: 9,
+        name: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        openingTime: "5:00am - 7:00pm",
+        location: "Putalisadak, Ktm",
+        packages: "HealthFix"
+    },
+    {
+        id: 10,
+        name: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        openingTime: "5:00am - 7:00pm",
+        location: "Putalisadak, Ktm",
+        packages: "HealthFix"
+    }
+];
+
+export const gymSubscriptionRows = [
+    {
+        id: 1,
+        name: "Anna Becker",
+        avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
+        gymname: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        packages: "HealthFix",
+        startingon: "March 4, 2022",
+        startingfrom: "March 4, 2022"
+    },
+    {
+        id: 2,
+        name: "Anna Becker",
+        avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
+        gymname: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        packages: "HealthFix",
+        startingon: "March 4, 2022",
+        startingfrom: "March 4, 2022"
+    },
+    {
+        id: 3,
+        name: "Anna Becker",
+        avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
+        gymname: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        packages: "HealthFix",
+        startingon: "March 4, 2022",
+        startingfrom: "March 4, 2022"
+    },
+    {
+        id: 4,
+        name: "Anna Becker",
+        avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
+        gymname: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        packages: "HealthFix",
+        startingon: "March 4, 2022",
+        startingfrom: "March 4, 2022"
+    },
+    {
+        id: 5,
+        name: "Anna Becker",
+        avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
+        gymname: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        packages: "HealthFix",
+        startingon: "March 4, 2022",
+        startingfrom: "March 4, 2022"
+    },
+    {
+        id: 6,
+        name: "Anna Becker",
+        avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
+        gymname: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        packages: "HealthFix",
+        startingon: "March 4, 2022",
+        startingfrom: "March 4, 2022"
+    },
+    {
+        id: 7,
+        name: "Anna Becker",
+        avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
+        gymname: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        packages: "HealthFix",
+        startingon: "March 4, 2022",
+        startingfrom: "March 4, 2022"
+    },
+    {
+        id: 8,
+        name: "Anna Becker",
+        avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
+        gymname: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        packages: "HealthFix",
+        startingon: "March 4, 2022",
+        startingfrom: "March 4, 2022"
+    },
+    {
+        id: 9,
+        name: "Anna Becker",
+        avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
+        gymname: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        packages: "HealthFix",
+        startingon: "March 4, 2022",
+        startingfrom: "March 4, 2022"
+    },
+    {
+        id: 10,
+        name: "Anna Becker",
+        avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
+        gymname: 'HealthFix',
+        img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
+        packages: "HealthFix",
+        startingon: "March 4, 2022",
+        startingfrom: "March 4, 2022"
     }
 ];
