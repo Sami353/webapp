@@ -25,7 +25,8 @@ export default function GymList() {
         },
         { field: 'openingTime', headerName: 'Opening Time', width: 200 },
         { field: 'location', headerName: 'Location', width: 200 },
-        { field: 'packages', headerName: 'Packages', width: 155 },
+        { field: 'duration', headerName: 'Duration', width: 155 },
+        { field: 'price', headerName: 'Price', width: 155 },
         {
             field: "action", headerName: "Action", width: 200, renderCell: (params) => {
                 return (

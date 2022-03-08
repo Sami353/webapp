@@ -8,6 +8,7 @@ import {
     BrandingWatermark,
     Category,
     Person,
+    ShoppingBasket,
 } from "@material-ui/icons"
 import { Link } from "react-router-dom"
 import DropdownGym from "./DropdownGym";
@@ -70,6 +71,12 @@ export default function Sidebar() {
                             <BrandingWatermark className="sidebarIcon" />
                             Brands
                         </li>
+                        <Link to="/orders" className="link">
+                            <li className="sidebarListItem">
+                                <ShoppingBasket className="sidebarIcon" />
+                                Orders
+                            </li>
+                        </Link>
                     </ul>
                 </div>
                 <div className="sidebarMenu">

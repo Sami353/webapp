@@ -30,9 +30,6 @@ export default function GymView() {
                     <p className="gymDescriptionText">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi autem omnis, aperiam dicta placeat nam! Possimus quod accusamus veniam sit, consequatur quisquam laudantium consectetur repellat? Molestiae accusantium illo unde cum.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi autem omnis, aperiam dicta placeat nam! Possimus quod accusamus veniam sit, consequatur quisquam laudantium consectetur repellat? Molestiae accusantium illo unde cum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi autem omnis, aperiam dicta placeat nam! Possimus quod accusamus veniam sit, consequatur quisquam laudantium consectetur repellat? Molestiae accusantium illo unde cum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi autem omnis, aperiam dicta placeat nam! Possimus quod accusamus veniam sit, consequatur quisquam laudantium consectetur repellat? Molestiae accusantium illo unde cum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi autem omnis, aperiam dicta placeat nam! Possimus quod accusamus veniam sit, consequatur quisquam laudantium consectetur repellat? Molestiae accusantium illo unde cum.
                     </p>
                 </div>
             </div>

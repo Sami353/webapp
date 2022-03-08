@@ -45,16 +45,18 @@ export default function SubscriptionEdit() {
                             <label>Gym ID</label>
                             <input type="text" placeholder="0001" />
                         </div>
-                    </div>
-                    <div className="subscriptionEditFormRight">
-                        <div className="subscriptionEditUpload">
-                            <img src="https://th.bing.com/th/id/R.238334602cbd48e19e3fc7c1940a2b09?rik=8tVv0chIbwB1UA&riu=http%3a%2f%2fstatic.giga.de%2fwp-content%2fuploads%2f2018%2f07%2fapple-airpods-i7s-tws-q_giga-P1066073-rcm992x0.jpg&ehk=NknVQ7tyWud%2bE77KaYZenpQLHnMTiGtLHl7pEv97BWQ%3d&risl=&pid=ImgRaw&r=0" alt="" className="subscriptionEditUploadImg" />
-                            <label for="file">
-                                <Publish />
-                            </label>
-                            <input type="file" id="file" style={{ display: "none" }} />
+                        <div className="subscriptionEditFormRight">
+                            <div className="subscriptionEditUpload">
+                                <img src="https://th.bing.com/th/id/R.238334602cbd48e19e3fc7c1940a2b09?rik=8tVv0chIbwB1UA&riu=http%3a%2f%2fstatic.giga.de%2fwp-content%2fuploads%2f2018%2f07%2fapple-airpods-i7s-tws-q_giga-P1066073-rcm992x0.jpg&ehk=NknVQ7tyWud%2bE77KaYZenpQLHnMTiGtLHl7pEv97BWQ%3d&risl=&pid=ImgRaw&r=0" alt="" className="subscriptionEditUploadImg" />
+                            </div>
+                            <div className="subImgUploadButton">
+                                <label for="file">
+                                    <Publish />
+                                </label>
+                                <input type="file" id="file" style={{ display: "none" }} />
+                            </div>
+                            <button className="subscriptionEditButton">Update</button>
                         </div>
-                        <button className="subscriptionEditButton">Update</button>
                     </div>
                 </form>
             </div>

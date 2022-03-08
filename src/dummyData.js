@@ -69,9 +69,9 @@ export const userRows = [
         id: 1,
         username: 'Jenny Walker',
         avatar: "https://th.bing.com/th/id/R.a424d10440dc2cb7cc2ec1c93b3b63b9?rik=MjLwYPp6Ru7pJw&pid=ImgRaw&r=0",
-        email: "123",
+        email: "jenny123@gmail.com",
         status: "Active",
-        transaction: "$190.00"
+        transaction: "Rs. 1000"
     },
     {
         id: 2,
@@ -79,7 +79,7 @@ export const userRows = [
         avatar: "https://www.rpidatang.com/static/dashboard/assets/img/avatar.png",
         email: "john@gmail.com",
         status: "Active",
-        transaction: "$120.00"
+        transaction: "Rs. 1000"
     },
     {
         id: 3,
@@ -87,7 +87,7 @@ export const userRows = [
         avatar: "https://www.rpidatang.com/static/dashboard/assets/img/avatar.png",
         email: "john@gmail.com",
         status: "Active",
-        transaction: "$120.00"
+        transaction: "Rs. 1000"
     },
     {
         id: 4,
@@ -95,7 +95,7 @@ export const userRows = [
         avatar: "https://www.rpidatang.com/static/dashboard/assets/img/avatar.png",
         email: "john@gmail.com",
         status: "Active",
-        transaction: "$120.00"
+        transaction: "Rs. 1000"
     },
     {
         id: 5,
@@ -103,7 +103,7 @@ export const userRows = [
         avatar: "https://www.rpidatang.com/static/dashboard/assets/img/avatar.png",
         email: "john@gmail.com",
         status: "Active",
-        transaction: "$120.00"
+        transaction: "Rs. 1000"
     },
     {
         id: 6,
@@ -111,7 +111,7 @@ export const userRows = [
         avatar: "https://www.rpidatang.com/static/dashboard/assets/img/avatar.png",
         email: "john@gmail.com",
         status: "Active",
-        transaction: "$120.00"
+        transaction: "Rs. 1000"
     },
     {
         id: 7,
@@ -119,7 +119,7 @@ export const userRows = [
         avatar: "https://www.rpidatang.com/static/dashboard/assets/img/avatar.png",
         email: "john@gmail.com",
         status: "Active",
-        transaction: "$120.00"
+        transaction: "Rs. 1000"
     },
     {
         id: 8,
@@ -127,7 +127,7 @@ export const userRows = [
         avatar: "https://www.rpidatang.com/static/dashboard/assets/img/avatar.png",
         email: "john@gmail.com",
         status: "Active",
-        transaction: "$120.00"
+        transaction: "Rs. 1000"
     },
     {
         id: 9,
@@ -135,7 +135,7 @@ export const userRows = [
         avatar: "https://www.rpidatang.com/static/dashboard/assets/img/avatar.png",
         email: "john@gmail.com",
         status: "Active",
-        transaction: "$120.00"
+        transaction: "Rs. 1000"
     },
     {
         id: 10,
@@ -143,7 +143,7 @@ export const userRows = [
         avatar: "https://www.rpidatang.com/static/dashboard/assets/img/avatar.png",
         email: "john@gmail.com",
         status: "Active",
-        transaction: "$120.00"
+        transaction: "Rs. 1000"
     }
 ];
 
@@ -154,8 +154,8 @@ export const productRows = [
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
         brand: "Apple",
         productType: "Airpods",
-        // price: "Rs. 455.00",
-        price: "Rs. 555.00",
+        discountPrice: "Rs. 455",
+        originalPrice: "Rs. 555",
         sellerName: "Anna Becker"
     },
     {
@@ -164,7 +164,8 @@ export const productRows = [
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
         brand: "Apple",
         productType: "Airpods",
-        price: "Rs. 555.00",
+        discountPrice: "Rs. 455",
+        originalPrice: "Rs. 555",
         sellerName: "Anna Becker"
     },
     {
@@ -173,7 +174,8 @@ export const productRows = [
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
         brand: "Apple",
         productType: "Airpods",
-        price: "Rs. 555.00",
+        discountPrice: "Rs. 455",
+        originalPrice: "Rs. 555",
         sellerName: "Anna Becker"
     },
     {
@@ -182,7 +184,8 @@ export const productRows = [
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
         brand: "Apple",
         productType: "Airpods",
-        price: "Rs. 555.00",
+        discountPrice: "Rs. 455",
+        originalPrice: "Rs. 555",
         sellerName: "Anna Becker"
     },
     {
@@ -191,7 +194,8 @@ export const productRows = [
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
         brand: "Apple",
         productType: "Airpods",
-        price: "Rs. 555.00",
+        discountPrice: "Rs. 455",
+        originalPrice: "Rs. 555",
         sellerName: "Anna Becker"
     },
     {
@@ -200,7 +204,8 @@ export const productRows = [
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
         brand: "Apple",
         productType: "Airpods",
-        price: "Rs. 555.00",
+        discountPrice: "Rs. 455",
+        originalPrice: "Rs. 555",
         sellerName: "Anna Becker"
     },
     {
@@ -209,7 +214,8 @@ export const productRows = [
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
         brand: "Apple",
         productType: "Airpods",
-        price: "Rs. 555.00",
+        discountPrice: "Rs. 455",
+        originalPrice: "Rs. 555",
         sellerName: "Anna Becker"
     },
     {
@@ -218,7 +224,8 @@ export const productRows = [
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
         brand: "Apple",
         productType: "Airpods",
-        price: "Rs. 555.00",
+        discountPrice: "Rs. 455",
+        originalPrice: "Rs. 555",
         sellerName: "Anna Becker"
     },
     {
@@ -227,7 +234,8 @@ export const productRows = [
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
         brand: "Apple",
         productType: "Airpods",
-        price: "Rs. 555.00",
+        discountPrice: "Rs. 455",
+        originalPrice: "Rs. 555",
         sellerName: "Anna Becker"
     },
     {
@@ -236,7 +244,8 @@ export const productRows = [
         img: "https://th.bing.com/th/id/R.ec6d4a9ea42a47676eee8f50f127d174?rik=WBA8%2fUG2a%2f8kOw&pid=ImgRaw&r=0",
         brand: "Apple",
         productType: "Airpods",
-        price: "Rs. 555.00",
+        discountPrice: "Rs. 455",
+        originalPrice: "Rs. 555",
         sellerName: "Anna Becker"
     }
 ];
@@ -248,7 +257,8 @@ export const gymRows = [
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
         openingTime: "5:00am - 7:00pm",
         location: "Putalisadak, Ktm",
-        packages: "HealthFix"
+        duration: "2 months",
+        price: "Rs. 2000"
     },
     {
         id: 2,
@@ -256,7 +266,8 @@ export const gymRows = [
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
         openingTime: "5:00am - 7:00pm",
         location: "Putalisadak, Ktm",
-        packages: "HealthFix"
+        duration: "2 months",
+        price: "Rs. 2000"
     },
     {
         id: 3,
@@ -264,7 +275,8 @@ export const gymRows = [
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
         openingTime: "5:00am - 7:00pm",
         location: "Putalisadak, Ktm",
-        packages: "HealthFix"
+        duration: "2 months",
+        price: "Rs. 2000"
     },
     {
         id: 4,
@@ -272,7 +284,8 @@ export const gymRows = [
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
         openingTime: "5:00am - 7:00pm",
         location: "Putalisadak, Ktm",
-        packages: "HealthFix"
+        duration: "2 months",
+        price: "Rs. 2000"
     },
     {
         id: 5,
@@ -280,7 +293,8 @@ export const gymRows = [
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
         openingTime: "5:00am - 7:00pm",
         location: "Putalisadak, Ktm",
-        packages: "HealthFix"
+        duration: "2 months",
+        price: "Rs. 2000"
     },
     {
         id: 6,
@@ -288,7 +302,8 @@ export const gymRows = [
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
         openingTime: "5:00am - 7:00pm",
         location: "Putalisadak, Ktm",
-        packages: "HealthFix"
+        duration: "2 months",
+        price: "Rs. 2000"
     },
     {
         id: 7,
@@ -296,7 +311,8 @@ export const gymRows = [
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
         openingTime: "5:00am - 7:00pm",
         location: "Putalisadak, Ktm",
-        packages: "HealthFix"
+        duration: "2 months",
+        price: "Rs. 2000"
     },
     {
         id: 8,
@@ -304,7 +320,8 @@ export const gymRows = [
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
         openingTime: "5:00am - 7:00pm",
         location: "Putalisadak, Ktm",
-        packages: "HealthFix"
+        duration: "2 months",
+        price: "Rs. 2000"
     },
     {
         id: 9,
@@ -312,7 +329,8 @@ export const gymRows = [
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
         openingTime: "5:00am - 7:00pm",
         location: "Putalisadak, Ktm",
-        packages: "HealthFix"
+        duration: "2 months",
+        price: "Rs. 2000"
     },
     {
         id: 10,
@@ -320,7 +338,8 @@ export const gymRows = [
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
         openingTime: "5:00am - 7:00pm",
         location: "Putalisadak, Ktm",
-        packages: "HealthFix"
+        duration: "2 months",
+        price: "Rs. 2000"
     }
 ];
 
@@ -331,7 +350,8 @@ export const gymSubscriptionRows = [
         avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
         gymname: 'HealthFix',
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
-        packages: "HealthFix",
+        duration: "2 months",
+        price: "Rs. 2000",
         startingon: "March 4, 2022",
         startingfrom: "March 4, 2022"
     },
@@ -341,7 +361,8 @@ export const gymSubscriptionRows = [
         avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
         gymname: 'HealthFix',
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
-        packages: "HealthFix",
+        duration: "2 months",
+        price: "Rs. 2000",
         startingon: "March 4, 2022",
         startingfrom: "March 4, 2022"
     },
@@ -351,7 +372,8 @@ export const gymSubscriptionRows = [
         avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
         gymname: 'HealthFix',
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
-        packages: "HealthFix",
+        duration: "2 months",
+        price: "Rs. 2000",
         startingon: "March 4, 2022",
         startingfrom: "March 4, 2022"
     },
@@ -361,7 +383,8 @@ export const gymSubscriptionRows = [
         avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
         gymname: 'HealthFix',
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
-        packages: "HealthFix",
+        duration: "2 months",
+        price: "Rs. 2000",
         startingon: "March 4, 2022",
         startingfrom: "March 4, 2022"
     },
@@ -371,7 +394,8 @@ export const gymSubscriptionRows = [
         avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
         gymname: 'HealthFix',
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
-        packages: "HealthFix",
+        duration: "2 months",
+        price: "Rs. 2000",
         startingon: "March 4, 2022",
         startingfrom: "March 4, 2022"
     },
@@ -381,7 +405,8 @@ export const gymSubscriptionRows = [
         avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
         gymname: 'HealthFix',
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
-        packages: "HealthFix",
+        duration: "2 months",
+        price: "Rs. 2000",
         startingon: "March 4, 2022",
         startingfrom: "March 4, 2022"
     },
@@ -391,7 +416,8 @@ export const gymSubscriptionRows = [
         avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
         gymname: 'HealthFix',
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
-        packages: "HealthFix",
+        duration: "2 months",
+        price: "Rs. 2000",
         startingon: "March 4, 2022",
         startingfrom: "March 4, 2022"
     },
@@ -401,7 +427,8 @@ export const gymSubscriptionRows = [
         avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
         gymname: 'HealthFix',
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
-        packages: "HealthFix",
+        duration: "2 months",
+        price: "Rs. 2000",
         startingon: "March 4, 2022",
         startingfrom: "March 4, 2022"
     },
@@ -411,7 +438,8 @@ export const gymSubscriptionRows = [
         avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
         gymname: 'HealthFix',
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
-        packages: "HealthFix",
+        duration: "2 months",
+        price: "Rs. 2000",
         startingon: "March 4, 2022",
         startingfrom: "March 4, 2022"
     },
@@ -421,8 +449,122 @@ export const gymSubscriptionRows = [
         avatar: "https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/28-1024.png",
         gymname: 'HealthFix',
         img: "https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress",
-        packages: "HealthFix",
+        duration: "2 months",
+        price: "Rs. 2000",
         startingon: "March 4, 2022",
         startingfrom: "March 4, 2022"
+    }
+];
+
+export const orderRows = [
+    {
+        id: 1,
+        date: "March 4, 2022",
+        name: "Anna",
+        img: "https://cdn4.iconfinder.com/data/icons/avatars-21/512/avatar-circle-human-female-black-6-512.png",
+        reciever: "Anna Becker",
+        phone: "+977 9123456780",
+        paymentMethod: "Esewa",
+        total: "Rs. 1100",
+        productsCount: "2"
+    },
+    {
+        id: 2,
+        date: "March 4, 2022",
+        name: "Anna",
+        img: "https://cdn4.iconfinder.com/data/icons/avatars-21/512/avatar-circle-human-female-black-6-512.png",
+        reciever: "Anna Becker",
+        phone: "+977 9123456780",
+        paymentMethod: "Esewa",
+        total: "Rs. 1100",
+        productsCount: "2"
+    },
+    {
+        id: 3,
+        date: "March 4, 2022",
+        name: "Anna",
+        img: "https://cdn4.iconfinder.com/data/icons/avatars-21/512/avatar-circle-human-female-black-6-512.png",
+        reciever: "Anna Becker",
+        phone: "+977 9123456780",
+        paymentMethod: "Cash On Delivery",
+        total: "Rs. 1100",
+        productsCount: "2"
+    },
+    {
+        id: 4,
+        date: "March 4, 2022",
+        name: "Anna",
+        img: "https://cdn4.iconfinder.com/data/icons/avatars-21/512/avatar-circle-human-female-black-6-512.png",
+        reciever: "Anna Becker",
+        phone: "+977 9123456780",
+        paymentMethod: "Cash On Delivery",
+        total: "Rs. 1100",
+        productsCount: "2"
+    },
+    {
+        id: 5,
+        date: "March 4, 2022",
+        name: "Anna",
+        img: "https://cdn4.iconfinder.com/data/icons/avatars-21/512/avatar-circle-human-female-black-6-512.png",
+        reciever: "Anna Becker",
+        phone: "+977 9123456780",
+        paymentMethod: "FonePay",
+        total: "Rs. 1100",
+        productsCount: "2"
+    },
+    {
+        id: 6,
+        date: "March 4, 2022",
+        name: "Anna",
+        img: "https://cdn4.iconfinder.com/data/icons/avatars-21/512/avatar-circle-human-female-black-6-512.png",
+        reciever: "Anna Becker",
+        phone: "+977 9123456780",
+        paymentMethod: "FonePay",
+        total: "Rs. 1100",
+        productsCount: "2"
+    },
+    {
+        id: 7,
+        date: "March 4, 2022",
+        name: "Anna",
+        img: "https://cdn4.iconfinder.com/data/icons/avatars-21/512/avatar-circle-human-female-black-6-512.png",
+        reciever: "Anna Becker",
+        phone: "+977 9123456780",
+        paymentMethod: "FonePay",
+        total: "Rs. 1100",
+        productsCount: "2"
+    },
+    {
+        id: 8,
+        date: "March 4, 2022",
+        name: "Anna",
+        img: "https://cdn4.iconfinder.com/data/icons/avatars-21/512/avatar-circle-human-female-black-6-512.png",
+        reciever: "Anna Becker",
+        phone: "+977 9123456780",
+        paymentMethod: "Cash On Delivery",
+        total: "Rs. 1100",
+        productsCount: "2"
+    },
+    {
+        id: 9,
+        date: "March 4, 2022",
+        name: "Anna",
+        img: "https://cdn4.iconfinder.com/data/icons/avatars-21/512/avatar-circle-human-female-black-6-512.png",
+        reciever: "Anna Becker",
+        phone: "+977 9123456780",
+        paymentMethod: "Esewa",
+        total: "Rs. 1100",
+        productsCount: "2"
+    },
+    {
+        id: 10,
+        date: "March 4, 2022",
+        name: "Anna",
+        img: "https://cdn4.iconfinder.com/data/icons/avatars-21/512/avatar-circle-human-female-black-6-512.png",
+        reciever: "Anna Becker",
+        phone: "+977 9123456780",
+        paymentMethod: "Esewa",
+        total: "Rs. 1100",
+        productsCount: "2"
     }
 ];

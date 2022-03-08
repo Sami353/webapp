@@ -36,16 +36,18 @@ export default function user() {
                                 <label>Address</label>
                                 <input type="text" placeholder="Putalisadak, Ktm" className="userUpdateInput" />
                             </div>
-                        </div>
-                        <div className="userUpdateRight">
-                            <div className="userUpdateUpload">
-                                <img src="https://th.bing.com/th/id/OIF.Yroca081XInwFEO0xjw6Cw?pid=ImgDet&rs=1" alt="" className="userUpdateImg" />
-                                <label htmlFor="file">
-                                    <Publish className="userUpdateIcon" />
-                                </label>
-                                <input type="file" id="file" style={{ display: "none" }} />
+                            <div className="userUpdateRight">
+                                <div className="userUpdateUpload">
+                                    <img src="https://th.bing.com/th/id/OIF.Yroca081XInwFEO0xjw6Cw?pid=ImgDet&rs=1" alt="" className="userUpdateImg" />
+                                </div>
+                                <div className="userImgUploadButton">
+                                    <label htmlFor="file">
+                                        <Publish className="userUpdateIcon" />
+                                    </label>
+                                    <input type="file" id="file" style={{ display: "none" }} />
+                                </div>
+                                <button className="userUpdateButton">Update</button>
                             </div>
-                            <button className="userUpdateButton">Update</button>
                         </div>
                     </form>
                 </div>

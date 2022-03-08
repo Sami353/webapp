@@ -2,13 +2,24 @@
     flex: 4;
 }
 
+.newUserTitle{
+    padding-left: 15px;
+}
+
 .newUserForm{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+    max-width: 500px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
 }
 
 .newUserItem{
-    width: 700px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     margin-top: 10px;

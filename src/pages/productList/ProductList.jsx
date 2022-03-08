@@ -25,7 +25,8 @@ export default function ProductList() {
         },
         { field: 'brand', headerName: 'Brand', width: 150 },
         { field: 'productType', headerName: 'Product Type', width: 200 },
-        { field: 'price', headerName: 'Prices', width: 155 },
+        { field: 'discountPrice', headerName: 'Dis. Price', width: 155 },
+        { field: 'originalPrice', headerName: 'Ori. Price', width: 155 },
         { field: 'sellerName', headerName: 'Seller Name', width: 155 },
         {
             field: "action", headerName: "Action", width: 200, renderCell: (params) => {
@@ -50,7 +51,7 @@ export default function ProductList() {
             <div className="productTitleContainer">
                 <h1 className="productTitle">Product</h1>
             </div>
-            <div className="productBottom">
+            <div className="productListBottom">
                 <DataGrid
                     rows={data}
                     disableSelectionOnClick

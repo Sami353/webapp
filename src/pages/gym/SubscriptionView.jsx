@@ -4,7 +4,6 @@ export default function SubscriptionView() {
     return (
         <div className="subscriptionView">
             <div className="subscriptionViewContainer">
-                <h1 className="subscriptionViewTitle">View Subscription</h1>
                 <div className="subscriptionViewDescription">
                     <span className="subscriptionViewDeccriptionTitle">Name:</span>
                     <span className="subscriptionViewDeccriptionValue">HealthFix</span>
@@ -18,8 +17,33 @@ export default function SubscriptionView() {
                     <span className="subscriptionViewDeccriptionValue">Putalisadak, Ktm</span>
                 </div>
                 <div className="subscriptionViewDescription">
-                    <span className="subscriptionViewDeccriptionTitle">Packages:</span>
-                    <span className="subscriptionViewDeccriptionValue">HealthFix</span>
+                    <div className="subViewDescription">
+                        <div className="subscriptionViewDeccriptionTitle">Packages:</div>
+                        <div className="subViewPackageDuration">
+                            <span className="subscriptionViewDeccriptionTitle">Duration:</span>
+                            <span className="subscriptionViewDeccriptionValue">2 months</span>
+                        </div>
+                        <div className="subViewPackagePrice">
+                            <span className="subscriptionViewDeccriptionTitle">Price:</span>
+                            <span className="subscriptionViewDeccriptionValue">Rs. 2000</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="subscriptionViewDescription">
+                    <span className="subscriptionViewDeccriptionTitle">Starting On:</span>
+                    <span className="subscriptionViewDeccriptionValue">March 4, 2022</span>
+                </div>
+                <div className="subscriptionViewDescription">
+                    <span className="subscriptionViewDeccriptionTitle">Starting From:</span>
+                    <span className="subscriptionViewDeccriptionValue">March 4, 2022</span>
+                </div>
+                <div className="subscriptionViewDescription">
+                    <span className="subscriptionViewDeccriptionTitle">Subscription ID:</span>
+                    <span className="subscriptionViewDeccriptionValue">0123456789</span>
+                </div>
+                <div className="subscriptionViewDescription">
+                    <span className="subscriptionViewDeccriptionTitle">Gym On:</span>
+                    <span className="subscriptionViewDeccriptionValue">0001</span>
                 </div>
             </div>
             <div className="subscriptionViewContainerTwo">
@@ -28,9 +52,6 @@ export default function SubscriptionView() {
                 </div>
                 <div className="subscriptionViewDescriptionContainer">
                     <p className="subscriptionViewDescriptionText">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi autem omnis, aperiam dicta placeat nam! Possimus quod accusamus veniam sit, consequatur quisquam laudantium consectetur repellat? Molestiae accusantium illo unde cum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi autem omnis, aperiam dicta placeat nam! Possimus quod accusamus veniam sit, consequatur quisquam laudantium consectetur repellat? Molestiae accusantium illo unde cum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi autem omnis, aperiam dicta placeat nam! Possimus quod accusamus veniam sit, consequatur quisquam laudantium consectetur repellat? Molestiae accusantium illo unde cum.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi autem omnis, aperiam dicta placeat nam! Possimus quod accusamus veniam sit, consequatur quisquam laudantium consectetur repellat? Molestiae accusantium illo unde cum.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi autem omnis, aperiam dicta placeat nam! Possimus quod accusamus veniam sit, consequatur quisquam laudantium consectetur repellat? Molestiae accusantium illo unde cum.
                     </p>

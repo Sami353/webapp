@@ -5,6 +5,7 @@
 .gymContainer{
     flex: 1;
     padding: 20px;
+    max-width: 500px;
     margin: 20px;
     box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
@@ -16,7 +17,7 @@
 }
 
 .gymDescription{
-    width: 250px;
+    width: 500px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
@@ -26,15 +27,14 @@
     flex: 1;
     padding: 20px;
     margin: 20px;
-    display: flex;
-    align-items: center;
+    max-width: 500px;
     box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
 }
 
 .gymViewImage{
-    width: 400px;
+    width: 500px;
     height: 400px;
     object-fit: cover;
     margin-right: 20px;
@@ -104,6 +104,7 @@
 
 .gymEditBottom{
     flex: 1;
+    max-width: 500px;
     padding: 20px;
     margin: 20px;
     box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
@@ -117,6 +118,7 @@
 }
 
 .gymEditFormLeft{
+    width: 500px;
     display: flex;
     flex-direction: column;
 }
@@ -154,11 +156,13 @@
 }
 
 .gymEditUploadImg{
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 0px;
     object-fit: cover;
     margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .gymEditFormRight{
@@ -173,6 +177,8 @@
 }
 
 .gymEditButton{
+    margin-top: 50px;
+    width: 200px;
     border: none;
     padding: 5px;
     border-radius: 5px;
@@ -188,12 +194,21 @@
     flex: 4;
 }
 
+.newGymTitle{
+    padding-left: 15px;
+}
+
 .addGymForm{
-    margin-top: 10px;
+    max-width: 500px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
 }
 
 .addGymItem{
-    width: 250px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
@@ -217,6 +232,7 @@
 }
 
 .addGymItemPackage>input{
+    width: 485px;
     margin-bottom: 10px;
     padding: 5px;
 }
@@ -262,6 +278,7 @@
 
 .subscriptionEditBottom{
     flex: 1;
+    max-width: 500px;
     padding: 20px;
     margin: 20px;
     box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
@@ -312,9 +329,9 @@
 }
 
 .subscriptionEditUploadImg{
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 0px;
     object-fit: cover;
     margin-right: 20px;
 }
@@ -330,7 +347,13 @@
     align-items: center;
 }
 
+.subImgUploadButton{
+    padding-top: 5px;
+}
+
 .subscriptionEditButton{
+    margin-top: 50px;
+    width: 200px;
     border: none;
     padding: 5px;
     border-radius: 5px;
@@ -348,6 +371,7 @@
 
 .subscriptionViewContainer{
     flex: 1;
+    max-width: 500px;
     padding: 20px;
     margin: 20px;
     box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
@@ -360,25 +384,40 @@
 }
 
 .subscriptionViewDescription{
-    width: 250px;
+    width: 500px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+}
+
+.subViewPackageDuration{
+    width: 485px;
+    padding-top: 10px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subViewPackagePrice{
+    width: 485px;
+    padding-left: 15px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .subscriptionViewContainerTwo{
     flex: 1;
     padding: 20px;
     margin: 20px;
-    display: flex;
-    align-items: center;
+    max-width: 500px;
     box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
 }
 
 .subscriptionViewViewImage{
-    width: 400px;
+    width: 500px;
     height: 400px;
     object-fit: cover;
     margin-right: 20px;

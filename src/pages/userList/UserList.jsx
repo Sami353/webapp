@@ -48,7 +48,7 @@ export default function UserList() {
     return (
         <div className="userList">
             <div className="userTitleContainer">
-                <h1 className="userTitle">Users</h1>
+                <h1 className="userTitle">Costumers</h1>
             </div>
             <div className="userBottom">
                 <DataGrid

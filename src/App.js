@@ -19,10 +19,14 @@ import GymList from "./pages/gym/GymList";
 import GymView from "./pages/gym/GymView";
 import GymEdit from "./pages/gym/GymEdit";
 import NewGym from "./pages/gym/NewGym";
+import Order from "./pages/order/Order";
 import SubscriptionList from "./pages/gym/SubscriptionList";
 import SubscriptionEdit from "./pages/gym/SubscriptionEdit";
 import SubscriptionView from "./pages/gym/SubscriptionView";
 import NewSubscription from "./pages/gym/NewSubscription";
+import OrderView from "./pages/order/OrderView";
+import OrderEdit from "./pages/order/OrderEdit";
+import NewOrder from "./pages/order/NewOrder";
 
 function App() {
   return (
@@ -35,7 +39,7 @@ function App() {
             <Home />
           </Route>
           <Route exact path="/">
-            <Home/>
+            <Home />
           </Route>
           <Route path="/users">
             <UserList />
@@ -60,6 +64,18 @@ function App() {
           </Route>
           <Route path="/newproduct">
             <NewProduct />
+          </Route>
+          <Route path="/orders">
+            <Order />
+          </Route>
+          <Route path="/orderView/:orderId">
+            <OrderView />
+          </Route>
+          <Route path="/orderEdit/:gymId">
+            <OrderEdit />
+          </Route>
+          <Route path="/neworder">
+            <NewOrder />
           </Route>
           <Route path="/gyms">
             <GymList />

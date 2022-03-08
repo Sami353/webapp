@@ -1,3 +1,290 @@
+/* orderList */
+
+.orderList{
+    flex: 4;
+}
+
+.orderTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.orderTitle{
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.orderBottom{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    height: 60%;
+}
+
+.orderListItem{
+    display: flex;
+    align-items: center;
+}
+
+.orderListImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.orderListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.orderListDelete{
+    color: red;
+    cursor: pointer;
+}
+
+/* order view */
+
+.orderShow{
+    flex: 4;
+}
+
+.orderTop{
+    display: flex;
+    max-width: 500px;
+}
+
+.orderTopRight{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+}
+
+.orderViewInfoTop{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.orderInfoImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.orderName{
+    font-weight: 600;
+}
+
+
+.ordersInfoItem{
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* order edit */
+
 .order{
     flex: 4;
+}
+
+.orderTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.orderAddButton{
+    margin-right: 15px;
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.orderTop{
+    display: flex;
+}
+
+.orderTopLeft{
+    flex: 1;
+    width: 50%;
+}
+
+.orderTopRight{
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+}
+
+.orderInfoImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.orderInfoTop{
+    display: flex;
+    align-items: center;
+}
+
+.orderName{
+    font-weight: 600;
+}
+
+.orderInfoBottom{
+    margin-top: 10px;
+}
+
+.orderInfoItem{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderEditBottom{
+    flex: 1;
+    max-width: 500px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+}
+
+.orderForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderFormLeft{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.orderFormLeft>label{
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.orderFormLeft>input{
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.orderFormLeft>select{
+    margin-bottom: 10px;
+}
+
+.orderUpload{
+    display: flex;
+    align-items: center;
+}
+
+.orderUploadImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 0px;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* .orderUploadButton{
+    width: 20px;
+    display: flex;
+    align-items: center;
+} */
+
+.orderButton{
+    margin-top: 50px;
+    width: 200px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* new Order */
+
+.newOrder{
+    flex: 4;
+}
+
+.newOrderTitle{
+    padding-left: 15px;
+}
+
+.addOrderForm{
+    margin-top: 10px;
+    flex: 1;
+    max-width: 500px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+}
+
+.addOrderItem{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.addOrderItem>label{
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.addOrderItem>input{
+    padding: 10px;
+}
+
+.addOrderItem>select{
+    padding: 10px;
+}
+
+.addOrderButton{
+    margin-top: 10px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
 }
