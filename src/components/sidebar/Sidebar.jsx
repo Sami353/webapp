@@ -22,9 +22,11 @@ export default function Sidebar() {
     const setActiveNav = (e) => {
         var prevTargetID = activeNavID;
         var targetID = e.target.id;
-        document.getElementById(prevTargetID).classList.remove("active");
-        document.getElementById(targetID).classList.add("active");
-        setActiveNavID(targetID);
+        if (targetID !== prevTargetID) {
+            document.getElementById(prevTargetID).classList.remove("active");
+            document.getElementById(targetID).classList.add("active");
+            setActiveNavID(targetID);
+        }
     }
 
     return (
@@ -34,16 +36,16 @@ export default function Sidebar() {
                     <div className="sidebarTitle">Dashboard</div>
                     <ul className="sidebarList">
                         <Link to="" className="link">
-                            <li className="sidebarListItem active"  id="home" onClick={setActiveNav}>
+                            <li className="sidebarListItem active" id="home" onClick={setActiveNav}>
                                 <LineStyle className="sidebarIcon" />
                                 Home
                             </li>
                         </Link>
-                        <li className="sidebarListItem" id="analytics" onClick={setActiveNav} >
+                        <li className="sidebarListItem" id="analytics" onClick={setActiveNav}>
                             <Timeline className="sidebarIcon" />
                             Analytics
                         </li>
-                        <li className="sidebarListItem">
+                        <li className="sidebarListItem" id="sales" onClick={setActiveNav}>
                             <TrendingUp className="sidebarIcon" />
                             Sales
                         </li>
@@ -53,12 +55,12 @@ export default function Sidebar() {
                     <div className="sidebarTitle">Users</div>
                     <ul className="sidebarList">
                         <Link to="/users" className="link">
-                            <li className="sidebarListItem">
+                            <li className="sidebarListItem" id="customers" onClick={setActiveNav}>
                                 <PermIdentity className="sidebarIcon" />
                                 Customers
                             </li>
                         </Link>
-                        <li className="sidebarListItem">
+                        <li className="sidebarListItem" id="vendors" onClick={setActiveNav}>
                             <Person className="sidebarIcon" />
                             Vendors
                         </li>
@@ -68,21 +70,21 @@ export default function Sidebar() {
                     <div className="sidebarTitle">Products</div>
                     <ul className="sidebarList">
                         <Link to="/products" className="link">
-                            <li className="sidebarListItem">
+                            <li className="sidebarListItem" id="products" onClick={setActiveNav}>
                                 <Storefront className="sidebarIcon" />
                                 Products
                             </li>
                         </Link>
-                        <li className="sidebarListItem">
+                        <li className="sidebarListItem" id="categories" onClick={setActiveNav}>
                             <Category className="sidebarIcon" />
                             Categories
                         </li>
-                        <li className="sidebarListItem">
+                        <li className="sidebarListItem" id="brands" onClick={setActiveNav}>
                             <BrandingWatermark className="sidebarIcon" />
                             Brands
                         </li>
                         <Link to="/orders" className="link">
-                            <li className="sidebarListItem">
+                            <li className="sidebarListItem" id="orders" onClick={setActiveNav}>
                                 <ShoppingBasket className="sidebarIcon" />
                                 Orders
                             </li>
@@ -92,9 +94,9 @@ export default function Sidebar() {
                 <div className="sidebarMenu">
                     <div className="sidebarTitle">Fitness</div>
                     <ul className="sidebarList">
-                        <li className="sidebarListItem"> <DropdownGym /> </li>
-                        <li className="sidebarListItem"> <DropdownFitness /> </li>
-                        <li className="sidebarListItem"> <DropdownDiet /> </li>
+                        <li className="sidebarListItem" id="dropdownGym" onClick={setActiveNav}> <DropdownGym /> </li>
+                        <li className="sidebarListItem" id="dropdownFitness" onClick={setActiveNav}> <DropdownFitness /> </li>
+                        <li className="sidebarListItem" id="dropdownDiet" onClick={setActiveNav}> <DropdownDiet /> </li>
                     </ul>
                 </div>
             </div>
