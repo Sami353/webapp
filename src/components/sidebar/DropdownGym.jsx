@@ -8,12 +8,9 @@ function DropdownGym() {
     const showHideDropdown = () => {
         showState ? setShowState(false) : setShowState(true);
     }
+
     const showDropdown = () => {
         setShowState(true);
-    }
-    const hideDropdown = () => {
-        setShowState(false);
-
     }
 
     return (

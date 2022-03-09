@@ -14,8 +14,18 @@ import { Link } from "react-router-dom"
 import DropdownGym from "./DropdownGym";
 import DropdownFitness from "./DropdownFitness";
 import DropdownDiet from "./DropdownDiet";
+import { useState } from "react";
 
 export default function Sidebar() {
+    const [activeNavID, setActiveNavID] = useState("home");
+
+    const setActiveNav = (e) => {
+        var prevTargetID = activeNavID;
+        var targetID = e.target.id;
+        document.getElementById(prevTargetID).classList.remove("active");
+        document.getElementById(targetID).classList.add("active");
+        setActiveNavID(targetID);
+    }
 
     return (
         <div className="sidebar">
@@ -24,12 +34,12 @@ export default function Sidebar() {
                     <div className="sidebarTitle">Dashboard</div>
                     <ul className="sidebarList">
                         <Link to="" className="link">
-                            <li className="sidebarListItem active">
+                            <li className="sidebarListItem active"  id="home" onClick={setActiveNav}>
                                 <LineStyle className="sidebarIcon" />
                                 Home
                             </li>
                         </Link>
-                        <li className="sidebarListItem">
+                        <li className="sidebarListItem" id="analytics" onClick={setActiveNav} >
                             <Timeline className="sidebarIcon" />
                             Analytics
                         </li>
