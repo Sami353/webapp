@@ -16,7 +16,7 @@ function DropdownGym() {
     return (
         <div className="dropdown">
             <div className="dropdownMenu" onClick={showHideDropdown}>
-                <div className="sidebarListItemDropdown">
+                <div className="sidebarListItemDropdown" id="">
                     <FitnessCenter className="dropdownIcon" />
                     Gyms
                 </div>
