@@ -4,6 +4,8 @@
 }
 
 .userTitleContainer{
+    margin-left: 15px;
+    max-width: 500px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,89 +27,56 @@
     margin-top: 20px;
 }
 
-.userShow{
-    flex: 1;
-    padding: 20px;
-    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
-}
-
 .userUpdate{
     flex: 2;
     max-width: 500px;
     padding: 20px;
-    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    /* box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75); */
 }
 
-.userShowTop{
+.userHeading{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.userItemNameContainer{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
-.userShowImg{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.userShowTopTitle{
+.userUpdateItemName{
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
-}
-
-.userShowUsername{
-    font-weight: 600;
-}
-
-.userShowUserTItle{
-    font-weight: 300;
-}
-
-.userShowBottom{
-    margin-top: 20px;
-}
-
-.userShowTitle{
-    font-size: 14px;
-    font-weight: 600;
-    color: rgb(175, 170, 170);
-}
-
-.userShowInfo{
-    display: flex;
-    align-items: center;
-    margin: 20px 0px;
-    color: #444;
-}
-
-.userShowIcon{
-    font-size: 16px !important;
-}
-
-.userShowInfoTitle{
-    margin-left: 10px;
-}
-
-.userUpdateTitle{
-    font-size: 24px;
-    font-weight: 600;   
+    margin-bottom: 10px;
 }
 
 .userUpdateForm{
     display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+    justify-content: space-evenly;
 }
 
 .userUpdateItem{
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.userUpdateItemName>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.userUpdateInputName{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.15);
+    border-radius: 5px;
+    width: 220px;
+    height: 25px;
+    /* border: none; */
+    border: 1px solid gray;
+    padding: 10px;
 }
 
 .userUpdateItem>label{
@@ -116,34 +85,72 @@
 }
 
 .userUpdateInput{
-    border: none;
-    width: 500px;
+    background-color: rgba(128, 128, 128, 0.15);
+    border-radius: 5px;
+    width: 480px;
     height: 25px;
-    border-bottom: 1px solid gray;
+    /* border: none; */
+    border: 1px solid gray;
+    padding: 10px;
 }
 
 .userUpdateRight{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    max-width: 500px;
 }
 
 .userUpdateUpload{
-    padding-top: 15px;
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.userUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userImgUploadButton{
+    max-width: 400px;
+    margin-left: 15px;
+    margin-top: -10px;
     display: flex;
     align-items: center;
 }
 
-.userUpdateImg{
-    width: 200px;
-    height: 200px;
-    border-radius: 0px;
-    object-fit: cover;
-    margin-right: 20px;
+.userImageUploadBtn{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
 }
 
-.userImgUploadButton{
-    padding-top: 5px;
+.imgUploadBtnUpload{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(2, 2, 160);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ImgUploadBtnRemove{
+    border: none;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: rgb(226, 221, 221);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.userImageDescriptn{
+    padding-left: 5px;
+    padding-top: 10px;
+    font-size: 14px;
 }
 
 .userUpdateIcon{
@@ -152,11 +159,12 @@
 
 .userUpdateButton{
     margin-top: 50px;
+    margin-left: 30%;
     width: 200px;
     border: none;
     padding: 5px;
     border-radius: 5px;
-    background-color: darkblue;
+    background-color: rgb(2, 2, 160);
     color: white;
     font-weight: 600;
     cursor: pointer;
