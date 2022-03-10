@@ -1,0 +1,27 @@
+.logInPage{
+    flex: 4;
+}
+
+.userUpdate{
+    display: flex;
+    width: 100%;
+}
+
+.userUpdateLeft{
+    flex: 1;
+}
+
+.LogInBanner{
+    width: 500px;
+    height: 500px;
+}
+
+.userUpdateRight{
+    flex: 1;
+    margin-left: 15px;
+}
+
+.userUpdateImage{
+    display: flex;
+    align-items: center;
+}

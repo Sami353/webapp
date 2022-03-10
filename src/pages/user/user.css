@@ -44,6 +44,7 @@
 .userItemNameContainer{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 5px;
 }
 
 .userUpdateItemName{
@@ -60,6 +61,7 @@
 .userUpdateItem{
     display: flex;
     flex-direction: column;
+    padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
@@ -73,7 +75,7 @@
     /* background-color: rgba(128, 128, 128, 0.15); */
     border-radius: 5px;
     width: 220px;
-    height: 25px;
+    height: 20px;
     /* border: none; */
     border: 1px solid rgb(199, 196, 196);
     padding: 10px;
@@ -88,7 +90,7 @@
     /* background-color: rgba(128, 128, 128, 0.15); */
     border-radius: 5px;
     width: 480px;
-    height: 25px;
+    height: 20px;
     /* border: none; */
     border: 1px solid rgb(199, 196, 196);
     padding: 10px;
@@ -162,7 +164,7 @@
     margin-left: 30%;
     width: 200px;
     border: none;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     background-color: rgb(2, 2, 160);
     color: white;

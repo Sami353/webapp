@@ -27,6 +27,7 @@ import NewSubscription from "./pages/gym/NewSubscription";
 import OrderView from "./pages/order/OrderView";
 import OrderEdit from "./pages/order/OrderEdit";
 import NewOrder from "./pages/order/NewOrder";
+import LogIn from "./pages/logIn/LogIn";
 
 function App() {
   return (
@@ -100,6 +101,9 @@ function App() {
           </Route>
           <Route path="/newsubscription">
             <NewSubscription />
+          </Route>
+          <Route path="/login">
+            <LogIn />
           </Route>
         </Switch>
       </div>

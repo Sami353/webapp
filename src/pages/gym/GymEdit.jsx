@@ -31,7 +31,7 @@ export default function GymEdit() {
                         </div>
                         <div className="gymEditFormLeft">
                             <label>Description</label>
-                            <input type="text" placeholder="Lorem" />
+                            <input type="text" placeholder="Lorem Ipsum" />
                         </div>
                         <div className="gymEditFormRight">
                             <div className="gymEditUpload">
