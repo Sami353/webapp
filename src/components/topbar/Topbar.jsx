@@ -1,6 +1,7 @@
 import React from 'react'
 import "./topbar.css"
 import { NotificationsNone, Language, Settings } from '@material-ui/icons';
+import { Link } from 'react-router-dom';
 
 export default function Topbar() {
   return (
@@ -11,6 +12,11 @@ export default function Topbar() {
         </div>
         <div className="topRight">
           <div className="topbarIconContainer">
+            <Link to="/login" className='link'>
+            LogIn
+            </Link> 
+          </div>
+          <div className="topbarIconContainer">
             <NotificationsNone />
             <span className="topIconBag">2</span>
           </div>
@@ -20,7 +26,8 @@ export default function Topbar() {
           </div><div className="topbarIconContainer">
             <Settings />
           </div>
-          <img src="https://th.bing.com/th/id/OIP.nTK-yAWL01laY6CKjMEq3gHaHa?pid=ImgDet&rs=1" alt="" className="topAvatar" />
+          <img src="https://th.bing.com/th/id/OIP.nTK-yAWL01laY6CKjMEq3gHaHa?pid=ImgDet&rs=1" alt=""
+            className="topAvatar" />
         </div>
       </div>
     </div>

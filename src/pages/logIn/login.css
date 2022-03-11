@@ -2,12 +2,18 @@
     flex: 4;
 }
 
+.logInHeader{
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
 .userUpdate{
     display: flex;
     width: 100%;
 }
 
-.userUpdateLeft{
+.logInUpdateLeft{
     flex: 1;
 }
 
@@ -16,12 +22,58 @@
     height: 500px;
 }
 
-.userUpdateRight{
+.logInUpdateRight{
     flex: 1;
-    margin-left: 15px;
+    margin-left: 75px;
 }
 
-.userUpdateImage{
+.logInLogo{
+    font-family: cursive;
+    margin: 50px 0px;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.logInHeading{
+    margin: 30px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.logInDetailsItem{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.logInDetailsItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.logInUpdateInput{
+    display: flex;
+    /* background-color: rgba(128, 128, 128, 0.15); */
+    border-radius: 5px;
+    width: 480px;
+    height: 20px;
+    /* border: none; */
+    border: 1px solid rgb(199, 196, 196);
+    padding: 10px;
+}
+
+.logInUpdateButton{
+    margin-top: 50px;
+    margin-left: 30%;
+    width: 200px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(2, 2, 160);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
 }
