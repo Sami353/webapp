@@ -1,12 +1,15 @@
+import { sliderImages } from "../../dummyData";
+import ImageSlider from "./ImageSlider";
 import "./login.css";
 
 export default function LogIn() {
     return (
         <div className="logInPage">
             <h3 className="logInHeader">LogIn Page</h3>
+            {/* <button className="logInCloseButton">Close</button> */}
             <div className="userUpdate">
                 <div className="logInUpdateLeft">
-                    <img src="https://th.bing.com/th/id/R.2510937162c679a068a9b349159f4a4b?rik=LS3sa211B9fk9A&pid=ImgRaw&r=0" alt="" className="LogInBanner" />
+                    <ImageSlider slides={sliderImages}/>
                 </div>
                 <div className="logInUpdateRight">
                     <form className="userUpdateForm">
@@ -23,7 +26,7 @@ export default function LogIn() {
                                 <label>Password</label>
                                 <input type="password" placeholder="password" className="logInUpdateInput" />
                             </div>
-                            <div className="logInDetailsItem">
+                            <div className="logInDetailsItemForgotPw">
                                 <label>
                                     Forgot Password?
                                 </label>

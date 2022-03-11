@@ -568,3 +568,15 @@ export const orderRows = [
         productsCount: "2"
     }
 ];
+
+export const sliderImages = [
+    {
+        image: 'https://th.bing.com/th/id/R.2510937162c679a068a9b349159f4a4b?rik=LS3sa211B9fk9A&pid=ImgRaw&r=0'
+    },
+    {
+        image: 'https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/07/running_at_sunset-1296x728-header.jpg?w=1155&h=1528'
+    },
+    {
+        image: 'https://health.clevelandclinic.org/wp-content/uploads/sites/3/2013/09/inexpensiveExercise-1277759983-770x533-1.jpg'
+    }
+];
