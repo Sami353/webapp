@@ -17,8 +17,10 @@ function DropdownGym() {
         <div className="dropdown">
             <div className="dropdownMenu" onClick={showHideDropdown}>
                 <div className="sidebarListItemDropdown" id="">
-                    <FitnessCenter className="dropdownIcon" />
-                    Gyms
+                    <Link to="/gyms" className="link">
+                        <FitnessCenter className="dropdownIcon" />
+                        Gyms
+                    </Link>
                 </div>
                 {showState ? (
                     <ul className="dropdownList" onMouseEnter={showDropdown}>
@@ -26,7 +28,7 @@ function DropdownGym() {
                             <li className="dropdownListItemDetails">All Gyms</li>
                         </Link>
                         <Link to="/subscriptions" className="link">
-                        <li className="dropdownListItemDetails">Gym Subscriptions</li>
+                            <li className="dropdownListItemDetails">Gym Subscriptions</li>
                         </Link>
                     </ul>) :
                     null}

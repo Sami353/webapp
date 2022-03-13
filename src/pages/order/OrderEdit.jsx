@@ -13,48 +13,67 @@ export default function OrderEdit() {
             </div>
             <div className="orderEditBottom">
                 <form className="orderForm">
-                    <div className="orderFormLeft">
-                        <label>Order Name</label>
-                        <input type="text" placeholder="Apple AirPod" />
-                        <div className="orderFormLeft">
-                            <label>Date</label>
-                            <input type="text" placeholder="March 4,2022" />
-                        </div>
-                        <div className="orderFormLeft">
-                            <label>User Name</label>
-                            <input type="text" placeholder="Anna" />
-                        </div>
-                        <div className="orderFormLeft">
-                            <label>Reciever</label>
-                            <input type="text" placeholder="Anna Becker" />
-                        </div>
-                        <div className="orderFormLeft">
-                            <label>Phone</label>
-                            <input type="text" placeholder="+977 9123456780" />
-                        </div>
-                        <div className="orderFormLeft">
-                            <label>Payment Method</label>
-                            <input type="text" placeholder="Cash on Delivery" />
-                        </div>
-                        <div className="orderFormLeft">
-                            <label>Total</label>
-                            <input type="text" placeholder="Rs. 1100" />
-                        </div>
-                        <div className="orderFormLeft">
-                            <label>Product Count</label>
-                            <input type="text" placeholder="1" />
-                        </div>
-                        <div className="productFormRight">
-                            <div className="orderUpload">
-                                <img src="https://th.bing.com/th/id/R.238334602cbd48e19e3fc7c1940a2b09?rik=8tVv0chIbwB1UA&riu=http%3a%2f%2fstatic.giga.de%2fwp-content%2fuploads%2f2018%2f07%2fapple-airpods-i7s-tws-q_giga-P1066073-rcm992x0.jpg&ehk=NknVQ7tyWud%2bE77KaYZenpQLHnMTiGtLHl7pEv97BWQ%3d&risl=&pid=ImgRaw&r=0" alt="" className="orderUploadImg" />
-                            </div>
-                            <div className="orderUploadButton">
-                                <label for="file">
-                                    <Publish />
+                    <div>
+                        <div className="orderUpdateRight">
+                            <span className="orderUpdateUpload">
+                                <img src="https://technofaq.org/wp-content/uploads/2019/01/word-image-56.png" alt="" className="orderUpdateImg" />
+                            </span>
+                            <span className="orderImgUploadButton">
+                                <label htmlFor="file">
+                                    <div className="orderImageUploadBtn">
+                                        <span className="imgUploadBtnUpload">
+                                            Upload New Image
+                                        </span>
+                                        <span className="ImgUploadBtnRemove">
+                                            Remove
+                                        </span>
+                                    </div>
+                                    <div className="orderImageDescriptn">
+                                        Image should be at least 400 x 400px as a png or jpeg file.
+                                    </div>
                                 </label>
                                 <input type="file" id="file" style={{ display: "none" }} />
+                            </span>
+                        </div>
+                        <h3 className="orderHeading">Enter order details below:</h3>
+                        <div className="orderItemNameContainer">
+                            <div className="orderUpdateItemName">
+                                <label>Order Name</label>
+                                <input type="text" placeholder="Apple Airpods" className="orderUpdateInputName" />
                             </div>
-                            <button className="orderButton">Update</button>
+                            <div className="orderUpdateItemName">
+                                <label>Date</label>
+                                <input type="text" placeholder="March 13, 2022" className="orderUpdateInputName" />
+                            </div>
+                        </div>
+                        <div className="orderItemNameContainer">
+                            <div className="orderUpdateItemName">
+                                <label>User Name</label>
+                                <input type="text" placeholder="annabeck998" className="orderUpdateInputName" />
+                            </div>
+                            <div className="orderUpdateItemName">
+                                <label>Reciever</label>
+                                <input type="text" placeholder="Anna Becker" className="orderUpdateInputName" />
+                            </div>
+                        </div>
+                        <div className="orderUpdateItem">
+                            <label>Phone</label>
+                            <input type="text" placeholder="+977 9876543210" className="orderUpdateInput" />
+                        </div>
+                        <div className="orderUpdateItem">
+                            <label>Payment Method</label>
+                            <input type="text" placeholder="Cash on Delivery" className="orderUpdateInput" />
+                        </div>
+                        <div className="orderUpdateItem">
+                            <label>Total</label>
+                            <input type="text" placeholder="Rs. 1100" className="orderUpdateInput" />
+                        </div>
+                        <div className="orderUpdateItem">
+                            <label>Product Count</label>
+                            <input type="text" placeholder="2" className="orderUpdateInput" />
+                        </div>
+                        <div className="orderUpdateRight">
+                            <button className="orderUpdateButton">Update</button>
                         </div>
                     </div>
                 </form>

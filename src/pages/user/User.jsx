@@ -14,17 +14,15 @@ export default function user() {
             <div className="userContainer">
                 <div className="userUpdate">
                     <form className="userUpdateForm">
-                        <div className="userUpdateLeft">
+                        <div>
                             <div className="userUpdateRight">
                                 <span className="userUpdateUpload">
                                     <img src="https://i.pinimg.com/originals/89/fd/79/89fd79d35dbcfe7fd70bf5f7c159f56c.jpg" alt="" className="userUpdateImg" />
                                 </span>
                                 <span className="userImgUploadButton">
                                     <label htmlFor="file">
-                                        {/* <Publish className="userUpdateIcon" /> */}
                                         <div className="userImageUploadBtn">
                                             <span className="imgUploadBtnUpload">
-                                                {/* <button>Upload New Image</button> */}
                                                 Upload New Image
                                             </span>
                                             <span className="ImgUploadBtnRemove">
