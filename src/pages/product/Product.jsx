@@ -53,11 +53,11 @@ export default function Product() {
                             <div className="productItemNameContainer">
                                 <div className="productUpdateItemName">
                                     <label>Original Price</label>
-                                    <input type="text" placeholder="Anna Becker" className="productUpdateInputName" />
+                                    <input type="text" placeholder="Rs. 555" className="productUpdateInputName" />
                                 </div>
                                 <div className="productUpdateItemName">
                                     <label>Discounted Price</label>
-                                    <input type="text" placeholder="annabeck998" className="productUpdateInputName" />
+                                    <input type="text" placeholder="Rs. 455" className="productUpdateInputName" />
                                 </div>
                             </div>
                             <div className="productUpdateItem">
