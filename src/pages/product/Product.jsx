@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./product.css";
-import { Publish } from "@material-ui/icons";
 
 export default function Product() {
     return (
