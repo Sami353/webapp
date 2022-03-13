@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { sliderImages } from "../../dummyData";
 import "./login.css";
-// import {ArrowCircleLeft, ArrowCircleRight} from "@material-ui/icons"
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
 
 function ImageSlider({ slides }) {

@@ -1,46 +1,55 @@
 import { sliderImages } from "../../dummyData";
 import ImageSlider from "./ImageSlider";
 import "./login.css";
+import Logo from "../image/Logo.png";
+import SignInGoogle from "./SignInGoogle";
 
 export default function LogIn() {
     return (
         <div className="logInPage">
-            <h3 className="logInHeader">LogIn Page</h3>
-            {/* <button className="logInCloseButton">Close</button> */}
-            <div className="userUpdate">
+            <div className="logInCard">
                 <div className="logInUpdateLeft">
-                    <ImageSlider slides={sliderImages}/>
+                    <ImageSlider slides={sliderImages} className="logInImageSlider" />
                 </div>
                 <div className="logInUpdateRight">
-                    <form className="userUpdateForm">
+                    <form className="logInForm">
                         <div className="logInContainer">
-                            <div className="userUpdateLogo">
-                                <h1 className="logInLogo">Logo</h1>
+                            <div className="logInPageLogo">
+                                <img src={Logo} alt="logo" className="logInLogo" />
                             </div>
                             <h3 className="logInHeading">Welcome to HealthFix</h3>
-                            <div className="logInDetailsItem">
-                                <label>User Name or Email</label>
-                                <input type="text" placeholder="annabeck998@gmail.com" className="logInUpdateInput" />
+                            <div className="logInDetails">
+                                <div className="logInDetailsItem">
+                                    <label>User Name or Email</label>
+                                    <input type="text" placeholder="annabeck998@gmail.com" className="logInUpdateInput" />
+                                </div>
+                                <div className="logInDetailsItem">
+                                    <label>Password</label>
+                                    <input type="password" placeholder="password" className="logInUpdateInput" />
+                                </div>
+                                <div className="logInForgotPw">
+                                    <label>
+                                        Forgot Password?
+                                    </label>
+                                </div>
                             </div>
-                            <div className="logInDetailsItem">
-                                <label>Password</label>
-                                <input type="password" placeholder="password" className="logInUpdateInput" />
+                            <div className="logInBtnContainer">
+                                <button className="logInUpdateButton">Sign In</button>
                             </div>
-                            <div className="logInDetailsItemForgotPw">
-                                <label>
-                                    Forgot Password?
-                                </label>
+                            <div className="logInOr">------------ or ------------</div>
+                            <div className="logInGoogle">
+                                <SignInGoogle /></div>
+                            <div className="logInDetailsItemRegister">
+                                <div className="logInLine1">
+                                    To Register an account,
+                                </div>
+                                <div className="logInLine2">
+                                    <span className="logInContact">
+                                        <a href="#">Contact</a> 
+                                    </span>
+                                    Administration.
+                                </div>
                             </div>
-                            <div className="userUpdateRight">
-                                <button className="logInUpdateButton">Log In</button>
-                            </div>
-                            {/* <br/>
-                        <div>------------or------------</div>
-                        <div>Sign in with Google</div>
-                        <div>
-                        New to HealthFix?
-                        <span>Create Account</span>
-                    </div> */}
                         </div>
                     </form>
                 </div>

@@ -11,10 +11,6 @@ function DropdownFitness() {
     const showDropdown = () => {
         setShowState(true);
     }
-    const hideDropdown = () => {
-        setShowState(false);
-
-    }
 
     return (
         <div className="dropdown">
