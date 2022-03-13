@@ -34,10 +34,10 @@ export default function Order() {
                 return (
                     <>
                         <Link to={"/orderView/" + params.row.id}>
-                            <button className="orderListEdit">View</button>
+                            <button className="orderListEdit">VIEW</button>
                         </Link>
                         <Link to={"/orderEdit/" + params.row.id}>
-                            <button className="orderListEdit">Edit</button>
+                            <button className="orderListEdit">EDIT</button>
                         </Link>
                         <DeleteOutline className="orderListDelete"
                             onClick={() => handleDelete(params.row.id)} />

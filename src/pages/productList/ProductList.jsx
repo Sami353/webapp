@@ -33,10 +33,10 @@ export default function ProductList() {
                 return (
                     <>
                         <Link to={"/productView/" + params.row.id}>
-                            <button className="productListEdit">View</button>
+                            <button className="productListEdit">VIEW</button>
                         </Link>
                         <Link to={"/product/" + params.row.id}>
-                            <button className="productListEdit">Edit</button>
+                            <button className="productListEdit">EDIT</button>
                         </Link>
                         <DeleteOutline className="productListDelete"
                             onClick={() => handleDelete(params.row.id)} />

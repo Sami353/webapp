@@ -2,9 +2,10 @@ import React from 'react';
 import { useGoogleLogin } from 'react-google-login';
 import "./login.css";
 import { refreshTokenSetup } from './refreshTokenSetup';
+import GoogleLogo from "../image/GoogleLogo.png";
 
 function SignInGoogle() {
-    const clientId = 'YOUR_CLIENT_ID.apps.googleusercontent.com';
+    const clientId = '7315294568-99n503kvjkbsskbsrgclafbv7mh6m4g1.apps.googleusercontent.com';
 
     const onSuccess = (res) => {
         console.log('Login Success: currentUser:', res.profileObj);
@@ -21,18 +22,11 @@ function SignInGoogle() {
         accessType: 'offline',
     });
     return (
-        // <GoogleLogin className='signInWithGoogle'
-        //     clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}
-        //     buttonText="Sign in with Google"
-        //     onSuccess={handleLogin}
-        //     onFailure={handleLogin}
-        //     cookiePolicy={'single_host_origin'}
-        // />
         <button onClick={signIn} className="button">
-            <img src="https://www.outsystems.com/Forge_BL/rest/ComponentThumbnail/GetURL_ComponentThumbnail?ProjectImageId=25044" 
+            <img src={GoogleLogo} 
             alt='google'
             className='imgGoogle'></img>
-            <span className='buttonText'>Sign In with Google</span>
+            <span className='buttonText'>Sign in with Google</span>
         </button>
     )
 }

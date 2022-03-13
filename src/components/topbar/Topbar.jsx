@@ -1,13 +1,8 @@
-// import React, { useState } from 'react'
 import "./topbar.css"
 import { NotificationsNone, Language, Settings } from '@material-ui/icons';
 import { Link } from 'react-router-dom';
-// import PopUp from '../../pages/logIn/PopUp';
-// import LogIn from '../../pages/logIn/LogIn';
 
 export default function Topbar() {
-  // const [buttonPopup, setButtonPopup] = useState(false);
-
   return (
     <div className='topbar'>
       <div className="topbarWrapper">
@@ -17,12 +12,8 @@ export default function Topbar() {
         <div className="topRight">
           <div className="topbarIconContainer">
             <Link to="/login" className='link'>
-              <button className='topbarIconLogIn'>LogIn</button>
+              <button className='topbarIconLogIn'>LOG IN</button>
             </Link>
-            {/* <button onClick={() => setButtonPopup(true)} className='topbarIconLogIn'>LogIn</button>
-            <PopUp trigger={buttonPopup} setTrigger={setButtonPopup}>
-              <LogIn/>
-            </PopUp> */}
           </div>
           <div className="topbarIconContainer">
             <NotificationsNone />

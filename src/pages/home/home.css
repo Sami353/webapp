@@ -2,6 +2,10 @@
     flex: 4;
 }
 
+.homePage{
+    margin: 10px;
+}
+
 .homeWidgets{
     display: flex;
     min-width: 20px;

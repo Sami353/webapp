@@ -34,7 +34,7 @@ export default function LogIn() {
                                 </div>
                             </div>
                             <div className="logInBtnContainer">
-                                <button className="logInUpdateButton">Sign In</button>
+                                <button className="logInUpdateButton">SIGN IN</button>
                             </div>
                             <div className="logInOr">------------ or ------------</div>
                             <div className="logInGoogle">
