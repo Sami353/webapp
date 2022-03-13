@@ -82,10 +82,12 @@
 
 .gymEdit{
     flex: 4;
+    padding: 20px;
 }
 
 .gymEditTitleContainer{
-    padding: 0px 15px;
+    margin-left: 15px;
+    max-width: 500px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -102,87 +104,156 @@
     cursor: pointer;
 }
 
-.gymEditBottom{
-    flex: 1;
-    max-width: 500px;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+.gymEditContainer{
+    display: flex;
+    margin-top: 20px;
 }
 
-.gymEditForm{
+.gymEditUpdate{
+    flex: 2;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.gymEditHeading{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.gymEditItemNameContainer{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.gymEditUpdatePackage{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.gymEditSubTopics{
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
-.gymEditFormLeft{
-    width: 500px;
+.gymEditUpdateItemName{
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
-.gymEditFormLeftPackage{
+.gymEditUpdateForm{
     display: flex;
+    justify-content: space-evenly;
 }
 
-.gymEditFormLeft>label{
-    margin-bottom: 10px;
-    color: gray;
-}
-
-.gymEditFormLeft>input{
-    margin-bottom: 10px;
-    border: none;
-    padding: 5px;
-    border-bottom: 1px solid gray;
-}
-
-.gymEditFormLeftPackage>label{
-    margin-bottom: 10px;
-    color: gray;
-}
-
-.gymEditFormLeftPackage>input{
-    margin-bottom: 10px;
-    border: none;
-    padding: 5px;
-    border-bottom: 1px solid gray;
-}
-
-.gymEditFormLeft>select{
+.gymEditUpdateItem{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
-.gymEditUploadImg{
-    width: 200px;
-    height: 200px;
-    border-radius: 0px;
-    object-fit: cover;
-    margin-right: 20px;
-    margin-top: 5px;
+.gymEditUpdateItemName>label{
     margin-bottom: 5px;
+    font-size: 14px;
 }
 
-.gymEditFormRight{
+.gymEditUpdateInputName{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    /* background-color: rgba(128, 128, 128, 0.15); */
+    border-radius: 5px;
+    width: 220px;
+    height: 20px;
+    /* border: none; */
+    border: 1px solid rgb(199, 196, 196);
+    padding: 10px;
 }
 
-.gymEditUpload{
+.gymEditUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.gymEditUpdateInput{
+    /* background-color: rgba(128, 128, 128, 0.15); */
+    border-radius: 5px;
+    width: 480px;
+    height: 20px;
+    /* border: none; */
+    border: 1px solid rgb(199, 196, 196);
+    padding: 10px;
+}
+
+.gymEditUpdateRight{
+    display: flex;
+    max-width: 500px;
+}
+
+.gymEditUpdateUpload{
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.gymEditUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.gymEditImgUploadButton{
+    max-width: 400px;
+    margin-left: 15px;
+    margin-top: -10px;
     display: flex;
     align-items: center;
 }
 
-.gymEditButton{
+.gymEditImageUploadBtn{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.imgUploadBtnUpload{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(2, 2, 160);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ImgUploadBtnRemove{
+    border: none;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: rgb(226, 221, 221);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.gymEditImageDescriptn{
+    padding-left: 5px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.gymEditUpdateButton{
     margin-top: 50px;
+    margin-left: 30%;
     width: 200px;
     border: none;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
-    background-color: darkblue;
+    background-color: rgb(2, 2, 160);
     color: white;
     font-weight: 600;
     cursor: pointer;
@@ -256,10 +327,12 @@
 
 .subscriptionEdit{
     flex: 4;
+    padding: 20px;
 }
 
-.subscriptionEditTitleContainer{
-    padding: 0px 15px;
+.subEditTitleContainer{
+    margin-left: 15px;
+    max-width: 500px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -276,88 +349,155 @@
     cursor: pointer;
 }
 
-.subscriptionEditBottom{
-    flex: 1;
-    max-width: 500px;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
+.gymSubContainer{
+    display: flex;
+    margin-top: 20px;
 }
 
-.subscriptionEditForm{
+.gymSubUpdate{
+    flex: 2;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.gymSubHeading{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.gymSubItemNameContainer{
     display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.gymSubUpdatePackage{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.gymSubSubTopics{
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
-.subscriptionEditFormLeft{
+.gymSubUpdateItemName{
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
-.subscriptionEditFormLeftPackage{
+.gymSubUpdateForm{
     display: flex;
+    justify-content: space-evenly;
 }
 
-.subscriptionEditFormLeft>label{
-    margin-bottom: 10px;
-    color: gray;
-}
-
-.subscriptionEditFormLeft>input{
-    margin-bottom: 10px;
-    border: none;
-    padding: 5px;
-    border-bottom: 1px solid gray;
-}
-
-.subscriptionEditFormLeftPackage>label{
-    margin-bottom: 10px;
-    color: gray;
-}
-
-.subscriptionEditFormLeftPackage>input{
-    margin-bottom: 10px;
-    border: none;
-    padding: 5px;
-    border-bottom: 1px solid gray;
-}
-
-.subscriptionEditFormLeft>select{
+.gymSubUpdateItem{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
-.subscriptionEditUploadImg{
-    width: 200px;
-    height: 200px;
-    border-radius: 0px;
+.gymSubUpdateItemName>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.gymSubUpdateInputName{
+    display: flex;
+    /* background-color: rgba(128, 128, 128, 0.15); */
+    border-radius: 5px;
+    width: 220px;
+    height: 20px;
+    /* border: none; */
+    border: 1px solid rgb(199, 196, 196);
+    padding: 10px;
+}
+
+.gymSubUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.gymSubUpdateInput{
+    /* background-color: rgba(128, 128, 128, 0.15); */
+    border-radius: 5px;
+    width: 480px;
+    height: 20px;
+    /* border: none; */
+    border: 1px solid rgb(199, 196, 196);
+    padding: 10px;
+}
+
+.gymSubUpdateRight{
+    display: flex;
+    max-width: 500px;
+}
+
+.gymSubUpdateUpload{
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.gymSubUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     object-fit: cover;
-    margin-right: 20px;
 }
 
-.subscriptionEditFormRight{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.subscriptionEditUpload{
+.gymSubImgUploadButton{
+    max-width: 400px;
+    margin-left: 15px;
+    margin-top: -10px;
     display: flex;
     align-items: center;
 }
 
-.subImgUploadButton{
-    padding-top: 5px;
+.gymSubImageUploadBtn{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
 }
 
-.subscriptionEditButton{
+.imgUploadBtnUpload{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(2, 2, 160);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ImgUploadBtnRemove{
+    border: none;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: rgb(226, 221, 221);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.gymSubImageDescriptn{
+    padding-left: 5px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.gymSubUpdateButton{
     margin-top: 50px;
+    margin-left: 30%;
     width: 200px;
     border: none;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
-    background-color: darkblue;
+    background-color: rgb(2, 2, 160);
     color: white;
     font-weight: 600;
     cursor: pointer;

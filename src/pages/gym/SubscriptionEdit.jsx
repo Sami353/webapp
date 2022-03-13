@@ -1,64 +1,86 @@
 import { Link } from "react-router-dom";
 import "./gym.css";
-import { Publish } from "@material-ui/icons";
 
 export default function SubscriptionEdit() {
     return (
         <div className="subscriptionEdit">
-            <div className="subscriptionEditTitleContainer">
-                <h1 className="subscriptionEditTitle">Subscription Edit</h1>
+            <div className="subEditTitleContainer">
+                <h1 className="subscriptionEditTitle">Edit Subscriptions</h1>
                 <Link to="/newsubscription">
                     <button className="subscriptionEditAddButton">Create</button>
                 </Link>
             </div>
-            <div className="subscriptionEditBottom">
-                <form className="subscriptionEditForm">
-                    <div className="subscriptionEditFormLeft">
-                        <label>Subscription Name</label>
-                        <input type="text" placeholder="Apple AirPod" />
-                        <div className="subscriptionEditFormLeft">
-                            <label>Opening Time</label>
-                            <input type="text" placeholder="5:00am - 7:00pm" />
-                        </div>
-                        <div className="subscriptionEditFormLeft">
-                            <label>Package</label>
-                            <div className="subscriptionEditFormLeftPackage">
-                                <label>Duration</label>
-                                <input type="text" placeholder="3 months" />
-                                <label>Time</label>
-                                <input type="text" placeholder="3 months" />
+            <div className="gymSubContainer">
+                <div className="gymSubUpdate">
+                    <form className="subscriptionEditForm">
+                        <div>
+                            <div className="gymSubUpdateRight">
+                                <span className="gymSubUpdateUpload">
+                                    <img src="https://g4l-images.imgix.net/5c500e5ce4b09836a92fc8e5/c67c1833783526c4e12e9c44831e74e4?fit=crop&auto=format,compress?fit=crop&w=1020&auto=format,compress" alt="" className="gymSubUpdateImg" />
+                                </span>
+                                <span className="gymSubImgUploadButton">
+                                    <label htmlFor="file">
+                                        <div className="gymSubImageUploadBtn">
+                                            <span className="imgUploadBtnUpload">
+                                                Upload New Image
+                                            </span>
+                                            <span className="ImgUploadBtnRemove">
+                                                Remove
+                                            </span>
+                                        </div>
+                                        <div className="gymSubImageDescriptn">
+                                            Image should be at least 400 x 400px as a png or jpeg file.
+                                        </div>
+                                    </label>
+                                    <input type="file" id="file" style={{ display: "none" }} />
+                                </span>
+                            </div>
+                            <h3 className="gymSubHeading">Enter your details below:</h3>
+                            <div className="gymSubUpdateItem">
+                                <label>Subscription Name</label>
+                                <input type="text" placeholder="HealthFix" className="gymSubUpdateInput" />
+                            </div>
+                            <div className="gymSubUpdateItem">
+                                <label>Opening Time</label>
+                                <input type="text" placeholder="5:00am - 7:00pm" className="gymSubUpdateInput" />
+                            </div>
+                            <div className="gymEditItemNameContainer">
+                                <div className="gymSubUpdatePackage">Packages: </div>
+                                <div className="gymSubSubTopics">
+                                    <div className="gymEditUpdateItemName">
+                                        <label>Duration</label>
+                                        <input type="text" placeholder="3 months" className="gymEditUpdateInputName" />
+                                    </div>
+                                    <div className="gymEditUpdateItemName">
+                                        <label>Time</label>
+                                        <input type="text" placeholder="3 months" className="gymEditUpdateInputName" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="gymSubItemNameContainer">
+                                <div className="gymSubUpdateItemName">
+                                    <label>Starting On</label>
+                                    <input type="text" placeholder="March 13, 2022" className="gymSubUpdateInputName" />
+                                </div>
+                                <div className="gymSubUpdateItemName">
+                                    <label>Starting From</label>
+                                    <input type="text" placeholder="March 13, 2022" className="gymSubUpdateInputName" />
+                                </div>
+                            </div>
+                            <div className="gymSubUpdateItem">
+                                <label>Subscription ID</label>
+                                <input type="text" placeholder="0123456789" className="gymSubUpdateInput" />
+                            </div>
+                            <div className="gymSubUpdateItem">
+                                <label>Gym ID</label>
+                                <input type="text" placeholder="0001" className="gymSubUpdateInput" />
+                            </div>
+                            <div className="gymSubUpdateRight">
+                                <button className="gymSubUpdateButton">Update</button>
                             </div>
                         </div>
-                        <div className="subscriptionEditFormLeft">
-                            <label>Starting On</label>
-                            <input type="text" placeholder="March 8, 2022" />
-                        </div>
-                        <div className="subscriptionEditFormLeft">
-                            <label>Starting From</label>
-                            <input type="text" placeholder="March 8, 2022" />
-                        </div>
-                        <div className="subscriptionEditFormLeft">
-                            <label>Subscription ID</label>
-                            <input type="text" placeholder="0123456789" />
-                        </div>
-                        <div className="subscriptionEditFormLeft">
-                            <label>Gym ID</label>
-                            <input type="text" placeholder="0001" />
-                        </div>
-                        <div className="subscriptionEditFormRight">
-                            <div className="subscriptionEditUpload">
-                                <img src="https://th.bing.com/th/id/R.238334602cbd48e19e3fc7c1940a2b09?rik=8tVv0chIbwB1UA&riu=http%3a%2f%2fstatic.giga.de%2fwp-content%2fuploads%2f2018%2f07%2fapple-airpods-i7s-tws-q_giga-P1066073-rcm992x0.jpg&ehk=NknVQ7tyWud%2bE77KaYZenpQLHnMTiGtLHl7pEv97BWQ%3d&risl=&pid=ImgRaw&r=0" alt="" className="subscriptionEditUploadImg" />
-                            </div>
-                            <div className="subImgUploadButton">
-                                <label for="file">
-                                    <Publish />
-                                </label>
-                                <input type="file" id="file" style={{ display: "none" }} />
-                            </div>
-                            <button className="subscriptionEditButton">Update</button>
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
     )
