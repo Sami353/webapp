@@ -33,7 +33,7 @@ export default function SubscriptionList() {
                 )
             }
         },
-        { field: 'duration', headerName: 'Duration', width: 155 },
+        { field: 'duration', headerName: 'Duration', width: 155},
         { field: 'price', headerName: 'Price', width: 155 },
         { field: 'startingon', headerName: 'Starting On', width: 200 },
         { field: 'startingfrom', headerName: 'Starting From', width: 200 },
