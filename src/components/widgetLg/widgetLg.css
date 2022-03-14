@@ -19,12 +19,14 @@
 
 .widgetLgTh{
     text-align: left;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .widgetLgUser{
     display: flex;
     align-items: center;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .widgetLgImg{
@@ -36,7 +38,7 @@
 }
 
 .widgetLgDate, .widgetLgAmount{
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .widgetLgButton{

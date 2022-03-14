@@ -1,15 +1,12 @@
 .userList{
     flex: 4;
+    margin: 10px;
 }
 
 .userTitleContainer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.userTitle{
-    padding-left: 15px;
 }
 
 .userBottom{
@@ -36,9 +33,9 @@
 
 .userListEdit{
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px 10px;
-    background-color: #3bb077;
+    background-color: darkblue;
     color: white;
     cursor: pointer;
     margin-right: 20px;

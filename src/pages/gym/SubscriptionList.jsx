@@ -42,12 +42,12 @@ export default function SubscriptionList() {
                 return (
                     <>
                         <Link to={"/subscriptionView/" + params.row.id}>
-                            <button className="productListEdit">VIEW</button>
+                            <button className="gymSubEdit">VIEW</button>
                         </Link>
                         <Link to={"/subscriptionEdit/" + params.row.id}>
-                            <button className="productListEdit">EDIT</button>
+                            <button className="gymSubEdit">EDIT</button>
                         </Link>
-                        <DeleteOutline className="productListDelete"
+                        <DeleteOutline className="gymSubDelete"
                             onClick={() => handleDelete(params.row.id)} />
                     </>
                 )

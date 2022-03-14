@@ -55,6 +55,7 @@
 
 .gymList{
     flex: 4;
+    margin: 10px;
 }
 
 .gymTitleContainer{
@@ -76,6 +77,21 @@
     -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.75);
     height: 60%;
+}
+
+.gymListEdit{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.gymListDelete{
+    color: red;
+    cursor: pointer;
 }
 
 /* gymEdit */
@@ -163,11 +179,9 @@
 
 .gymEditUpdateInputName{
     display: flex;
-    /* background-color: rgba(128, 128, 128, 0.15); */
     border-radius: 5px;
     width: 220px;
     height: 20px;
-    /* border: none; */
     border: 1px solid rgb(199, 196, 196);
     padding: 10px;
 }
@@ -178,11 +192,9 @@
 }
 
 .gymEditUpdateInput{
-    /* background-color: rgba(128, 128, 128, 0.15); */
     border-radius: 5px;
     width: 480px;
     height: 20px;
-    /* border: none; */
     border: 1px solid rgb(199, 196, 196);
     padding: 10px;
 }
@@ -323,6 +335,21 @@
     cursor: pointer;
 }
 
+.gymSubEdit{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.gymSubDelete{
+    color: red;
+    cursor: pointer;
+}
+
 /* subscription edit */
 
 .subscriptionEdit{
@@ -407,11 +434,9 @@
 
 .gymSubUpdateInputName{
     display: flex;
-    /* background-color: rgba(128, 128, 128, 0.15); */
     border-radius: 5px;
     width: 220px;
     height: 20px;
-    /* border: none; */
     border: 1px solid rgb(199, 196, 196);
     padding: 10px;
 }
@@ -422,11 +447,9 @@
 }
 
 .gymSubUpdateInput{
-    /* background-color: rgba(128, 128, 128, 0.15); */
     border-radius: 5px;
     width: 480px;
     height: 20px;
-    /* border: none; */
     border: 1px solid rgb(199, 196, 196);
     padding: 10px;
 }

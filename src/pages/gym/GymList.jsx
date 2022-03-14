@@ -32,12 +32,12 @@ export default function GymList() {
                 return (
                     <>
                         <Link to={"/gymView/" + params.row.id}>
-                            <button className="productListEdit">VIEW</button>
+                            <button className="gymListEdit">VIEW</button>
                         </Link>
                         <Link to={"/gymEdit/" + params.row.id}>
-                            <button className="productListEdit">EDIT</button>
+                            <button className="gymListEdit">EDIT</button>
                         </Link>
-                        <DeleteOutline className="productListDelete"
+                        <DeleteOutline className="gymListDelete"
                             onClick={() => handleDelete(params.row.id)} />
                     </>
                 )

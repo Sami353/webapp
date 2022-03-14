@@ -1,5 +1,6 @@
 .productList{
     flex: 4;
+    margin: 10px;
 }
 
 .productTitleContainer{
@@ -11,7 +12,6 @@
 .productTitle{
     font-size: 2em;
     font-weight: bold;
-    padding-left: 15px;
 }
 
 .productListBottom{
@@ -38,9 +38,9 @@
 
 .productListEdit{
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px 10px;
-    background-color: #3bb077;
+    background-color: darkblue;
     color: white;
     cursor: pointer;
     margin-right: 20px;
