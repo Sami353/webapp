@@ -6,9 +6,6 @@ export default function ProductView() {
     return (
         <div className="productShow">
             <div className="productTop">
-                {/* <div className="productTopLeft">
-                    <Chart data={productData} dataKey="Sales" title="Sales Performance" />
-                </div> */}
                 <div className="productTopRight">
                     <div className="productInfoTop">
                         <img src="https://th.bing.com/th/id/R.4b732aec26168e1aab09413afd874737?rik=HIfm3xLVcBU4Iw&riu=http%3a%2f%2fnewsimg.hankookilbo.com%2f2016%2f12%2f14%2f201612140871091954_1.jpg&ehk=FhWdqqwXwbN%2bKqcMaij0TviVbSFvHVnQ97u8Dir35bE%3d&risl=&pid=ImgRaw&r=0" alt="" className="productInfoImg" />
