@@ -20,12 +20,13 @@
     margin-right: 20px;
 }
 
-.userInfoTop{
+.userShowTopTitle{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
 }
 
-.userName{
+.userShowUsername{
     font-weight: 600;
 }
 
@@ -33,8 +34,9 @@
     margin-top: 10px;
 }
 
-.userInfoItem{
-    width: 250px;
+.userShowInfo{
+    width: 500px;
+    padding: 5px 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
 }

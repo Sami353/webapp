@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-// import { Publish } from "@material-ui/icons"
 import "./user.css"
+import AnnaBecker from "../image/AnnaBecker.jpg";
 
 export default function user() {
     return (
@@ -17,7 +17,7 @@ export default function user() {
                         <div>
                             <div className="userUpdateRight">
                                 <span className="userUpdateUpload">
-                                    <img src="https://i.pinimg.com/originals/89/fd/79/89fd79d35dbcfe7fd70bf5f7c159f56c.jpg" alt="" className="userUpdateImg" />
+                                    <img src={AnnaBecker} alt="" className="userUpdateImg" />
                                 </span>
                                 <span className="userImgUploadButton">
                                     <label htmlFor="file">

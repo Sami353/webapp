@@ -1,15 +1,17 @@
 import { CalendarToday, LocationSearching, MailOutline, PermIdentity, PhoneAndroid } from "@material-ui/icons"
 import "./userView.css"
+import AnnaBecker from "../image/AnnaBecker.jpg";
 
 export default function UserView() {
     return (
         <div className="userView">
             <div className="userViewTop">
                 <div className="userShowTop">
-                    <img src="https://th.bing.com/th/id/OIF.Yroca081XInwFEO0xjw6Cw?pid=ImgDet&rs=1" alt="" className="userShowImg" />
+                    <img src={AnnaBecker} alt=""
+                        className="userInfoImg" />
                     <div className="userShowTopTitle">
-                        <span className="userShowUsername">Anna Becker</span>
-                        <span className="userShowUserTItle">Software Engineer</span>
+                        <div className="userShowUsername">Anna Becker</div>
+                        <div className="userShowUserTItle">Software Engineer</div>
                     </div>
                 </div>
                 <div className="userShowBottom">
